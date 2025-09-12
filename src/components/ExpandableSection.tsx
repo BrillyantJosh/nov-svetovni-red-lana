@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 interface ExpandableSectionProps {
   title: string;
   summary: string;
-  content: string;
+  content: string | React.ReactNode;
   icon?: React.ReactNode;
   className?: string;
 }
@@ -57,9 +57,13 @@ export const ExpandableSection = ({
         }`}
       >
         <div className="pt-4 border-t border-border">
-          <p className="text-foreground leading-relaxed whitespace-pre-line">
-            {content}
-          </p>
+          <div className="text-foreground leading-relaxed">
+            {typeof content === 'string' ? (
+              <p className="whitespace-pre-line">{content}</p>
+            ) : (
+              content
+            )}
+          </div>
         </div>
       </div>
     </div>

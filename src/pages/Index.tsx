@@ -78,14 +78,19 @@ A vsaka resnica ima dve plati. Če jih ne sprejmemo, smo bleferji. Zato zakaj pa
           <ExpandableSection
             title="Naša zgodba"
             summary="Vse skupaj se je začelo leta 2016, ko je Jure forkal Bitcoin in ustvaril novo kriptovaluto – Lano. Z leti se je pridružilo vedno več zanimivih ljudi."
-            content="Vse skupaj se je začelo leta 2016, ko je Jure forkal Bitcoin in ustvaril novo kriptovaluto – Lano.
-Kot večina kriptovalut je tudi ta šla malo gor in malo dol. Kasneje so jo fantje in punce malo preoblikovali, tako da so postale transakcije res poceni.
-
-Z leti se je pridružilo vedno več zanimivih ljudi. Nekega lepega dne je Gašper predstavil Plan 15, nekaj let kasneje pa se je pridružil še Joško – model, ki živi v gozdu in snema take žgečkljive reči. On je rekel: 'Zakaj pa se ne bi zgledovali po naravi? Naj znotraj Lane nastane registrirana Lana, ki deluje kot protiutež trenutnim Lanam. Skupaj tvorita celoto. Kot zima in poletje, kot vdih in izdih …'
-
-In tako smo zdaj tukaj.
-Igramo se dalje. Ni nobenega strogega plana. Sproti ustvarjamo.
-In predvsem: mamo se fajn. 😄"
+            content={<>
+              Vse skupaj se je začelo leta 2016, ko je Jure forkal Bitcoin in ustvaril novo kriptovaluto – <em>Lano</em>.
+              <br /><br />
+              Kot večina kriptovalut je tudi ta šla malo gor in malo dol. Kasneje so jo fantje in punce malo preoblikovali, tako da so postale transakcije res poceni.
+              <br /><br />
+              Z leti se je pridružilo vedno več zanimivih ljudi. Nekega lepega dne je Gašper predstavil <strong>Plan 15</strong>, nekaj let kasneje pa se je pridružil še Joško – model, ki živi v gozdu in snema take žgečkljive reči. On je rekel: <em>"Zakaj pa se ne bi zgledovali po naravi? Naj znotraj Lane nastane registrirana Lana, ki deluje kot protiutež trenutnim Lanam. Skupaj tvorita celoto. Kot zima in poletje, kot vdih in izdih ..."</em>
+              <br /><br />
+              In tako smo zdaj tukaj.
+              <br />
+              Igramo se dalje. Ni nobenega strogega plana. Sproti ustvarjamo.
+              <br />
+              In predvsem: <strong>mamo se fajn</strong>. 😄
+            </>}
             icon={<Users className="h-6 w-6" />}
             className="animate-fade-in"
           />
