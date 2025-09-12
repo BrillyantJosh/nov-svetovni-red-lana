@@ -380,11 +380,11 @@ Gospodarstvo mora biti orodje človeškega blagostanja."
       <section className="py-20 px-4 bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-heading text-4xl font-bold mb-6 text-gradient">
-            Pridruži se spremembam
+            Živi spremembo
           </h2>
           <div className="flex items-center justify-center gap-6 mb-8 max-w-3xl mx-auto">
             <img 
-              src="/src/assets/einstein.jpg" 
+              src="/src/assets/einstein-new.jpg" 
               alt="Albert Einstein" 
               className="w-20 h-20 rounded-full object-cover border-2 border-primary/20"
             />
