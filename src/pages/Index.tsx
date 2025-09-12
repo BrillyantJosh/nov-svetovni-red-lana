@@ -382,10 +382,17 @@ Gospodarstvo mora biti orodje človeškega blagostanja."
           <h2 className="font-heading text-4xl font-bold mb-6 text-gradient">
             Pridruži se spremembam
           </h2>
-          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Nov Svetovni Red Lana ni le politično gibanje - je skupnost ljudi, ki verjamejo v boljšo prihodnost. 
-            Vsak glas šteje, vsaka ideja je dobrodošla.
-          </p>
+          <div className="flex items-center justify-center gap-6 mb-8 max-w-3xl mx-auto">
+            <img 
+              src="/src/assets/einstein.jpg" 
+              alt="Albert Einstein" 
+              className="w-20 h-20 rounded-full object-cover border-2 border-primary/20"
+            />
+            <blockquote className="text-xl text-muted-foreground italic">
+              "Če ideja na začetku ni absurdna, potem zanjo ni upanja."
+              <footer className="text-sm text-primary mt-2 not-italic">— Albert Einstein</footer>
+            </blockquote>
+          </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button className="gradient-button text-lg px-8 py-4">
