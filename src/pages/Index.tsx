@@ -108,10 +108,11 @@ const Index = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="font-heading text-4xl font-bold mb-4 text-gradient">
-              Naša vizija in ključne teme
+              Naša vizija je totalno kul
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Konkretni predlogi za sistemske spremembe, ki jih potrebuje naša družba
+              Ne samo to – mi kar gradimo vzporedno novo realnost.<br />
+              In tukaj je nekaj naših najbolj odštekanih idej. 🚀
             </p>
           </div>
 
