@@ -191,17 +191,41 @@ const Index = () => {
 
             {/* Consciousness-based Voting */}
             <ExpandableSection
-              title="Glasovanje na podlagi zavesti"
-              summary="Novo razumevanje demokracije, ki upošteva globino razmisleka in informiranost volilcev."
-              content="Tradicionalna demokracija ima svoje omejitve. Raziskujemo nove modele:
-
-• Kvalificirano glasovanje z izobraževalnimi moduli
-• Sistemi vrednotenja argumentov in dokazov
-• Deliberativna demokracija v manjših skupinah
-• Tehnološko podprto sodelovalno odločanje
-• Transparentni sistemi za spremljanje učinkov politik
-
-Cilj je informirane, premišljene odločitve, ne le popularnost."
+              title="Gremo volit malce drugače 🗳️"
+              summary="A ne bi bilo kul, da bi enkrat vsi tulili v isti rog — in se končno strinjali?"
+              content={<>
+                <p className="mb-4">
+                  Danes imamo kao demokracijo. Ampak v resnici vse, kar je demokratičnega v naši ureditvi, je to, da znova in znova "demokratično" izvolimo novega diktatorja, ki nas potem nekaj let j… Polovico časa pa porabimo, da se prerekamo, kdo je boljši in kdo slabši. Saj ne moremo biti tako naivni, da tega ne opazimo v dobi informatizacije. Ok, pred 1000 leti je to še šlo, ampak ne leta 2025.
+                </p>
+                
+                <p className="mb-4">
+                  V <strong>Novem Svetovnem Redu Lana</strong> ne volimo voditeljev, ampak <strong>ideje</strong>.
+                  <br />
+                  In to take, ki imajo višjo stopnjo zavesti in služijo vsem.
+                </p>
+                
+                <p className="mb-4">
+                  Kdor koli lahko predlaga idejo. Če je res na višjem nivoju zavesti, potem ne sme imeti niti enega samega nasprotnika. Samo take ideje lahko služijo celoti. Tak proces ni samo "volitve" — je pot v preoblikovanje skupnosti v nekaj več.
+                </p>
+                
+                <p className="mb-4">
+                  Zavedamo se, da predlogi, ki temeljijo na izbiri med dvema nasprotjema, po definiciji ne morejo biti višja zavest. Višja zavest vedno pokaže <strong>rešitev v igri med nasprotji</strong>. Samo to je celota — in samo v taki perspektivi ni nobenega razloga za nasprotovanje.
+                </p>
+                
+                <p className="mb-4">
+                  Če pa se kdo vseeno odloči nasprotovati zgolj iz <strong>"nasprotovanja"</strong>, se sproži samoodgovorni postopek: prevzeti mora odgovornost ali pa se samodejno izključi iz Lanine realnosti. Njegova denarnica se odregistrira in izgubi težo v quorumu. Torej odpor sam od sebe izgine.
+                </p>
+                
+                <p className="mb-4">
+                  V tem svetu smo veseli vsakega iskrenega odpora — ker nasprotovanje samo pomaga soustvarjati višjo stopnjo zavesti. Na koncu pa:
+                  <br />
+                  če si bil del quoruma in nisi glasoval, šteje to kot <strong>tihi glas ZA</strong>.
+                </p>
+                
+                <p>
+                  Končni rezultat? Vedno <strong>100 % ZA</strong>. ✅
+                </p>
+              </>}
               icon={<Brain className="h-6 w-6" />}
             />
 
