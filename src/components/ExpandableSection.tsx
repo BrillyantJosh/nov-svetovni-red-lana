@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 interface ExpandableSectionProps {
   title: string;
-  summary: string;
+  summary: string | React.ReactNode;
   content: string | React.ReactNode;
   icon?: React.ReactNode;
   className?: string;
@@ -29,7 +29,9 @@ export const ExpandableSection = ({
         )}
         <div className="flex-1">
           <h3 className="section-header">{title}</h3>
-          <p className="text-muted-foreground leading-relaxed">{summary}</p>
+          <div className="text-muted-foreground leading-relaxed">
+            {typeof summary === 'string' ? <p>{summary}</p> : summary}
+          </div>
         </div>
       </div>
       
