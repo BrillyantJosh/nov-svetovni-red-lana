@@ -147,6 +147,7 @@ const Index = () => {
                 </p>
               </>}
               icon={<DollarSign className="h-6 w-6" />}
+              showLiveBadge={true}
             />
 
             {/* Extraterrestrial Communication */}
@@ -227,6 +228,7 @@ const Index = () => {
                 </p>
               </>}
               icon={<Brain className="h-6 w-6" />}
+              showLiveBadge={true}
             />
 
             {/* New Legal Order */}
@@ -243,6 +245,7 @@ const Index = () => {
 
 Pravičnost mora biti dostopna, razumljiva in učinkovita za vse."
               icon={<Scale className="h-6 w-6" />}
+              showLiveBadge={true}
             />
 
             {/* Data Ownership */}
@@ -259,6 +262,7 @@ Pravičnost mora biti dostopna, razumljiva in učinkovita za vse."
 
 Digitalna suverenost je temelj svobode v 21. stoletju."
               icon={<Database className="h-6 w-6" />}
+              showLiveBadge={true}
             />
 
             {/* New Economy with AI */}
@@ -291,6 +295,7 @@ UI mora biti orodje osvoboditve, ne izkorišćanja."
 
 Ljudje imajo pravico vedeti, kako deluje njihova država."
               icon={<Eye className="h-6 w-6" />}
+              showLiveBadge={true}
             />
 
             {/* Education */}
@@ -371,6 +376,7 @@ Brez zdrave narave ni zdrave družbe."
 
 Gospodarstvo mora biti orodje človeškega blagostanja."
               icon={<Building className="h-6 w-6" />}
+              showLiveBadge={true}
             />
           </div>
         </div>

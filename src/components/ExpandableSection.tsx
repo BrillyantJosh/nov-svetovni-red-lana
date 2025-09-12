@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { LiveBadge } from "./LiveBadge";
 
 interface ExpandableSectionProps {
   title: string;
@@ -8,6 +9,7 @@ interface ExpandableSectionProps {
   content: string | React.ReactNode;
   icon?: React.ReactNode;
   className?: string;
+  showLiveBadge?: boolean;
 }
 
 export const ExpandableSection = ({ 
@@ -15,7 +17,8 @@ export const ExpandableSection = ({
   summary, 
   content, 
   icon,
-  className = "" 
+  className = "",
+  showLiveBadge = false
 }: ExpandableSectionProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -28,7 +31,10 @@ export const ExpandableSection = ({
           </div>
         )}
         <div className="flex-1">
-          <h3 className="section-header">{title}</h3>
+          <div className="flex items-center gap-3 mb-2">
+            <h3 className="section-header">{title}</h3>
+            {showLiveBadge && <LiveBadge />}
+          </div>
           <div className="text-muted-foreground leading-relaxed">
             {typeof summary === 'string' ? <p>{summary}</p> : summary}
           </div>
