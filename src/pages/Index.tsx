@@ -274,17 +274,26 @@ const Index = () => {
 
             {/* Data Ownership */}
             <ExpandableSection
-              title="Lastništvo podatkov"
-              summary="Vaši podatki so vaši. Pika. Nova zakonodaja za digitalno suverenost."
-              content="Podatki so novo bogastvo, vendar ga trenutno kradejo:
-
-• Pravica do popolnega nadzora nad osebnimi podatki
-• Obvezno plačilo za uporabo podatkov
-• Decentralizirane rešitve za shranjevanje podatkov
-• Stroge kazni za kršitelje zasebnosti
-• Javno financirane alternative velikim platformam
-
-Digitalna suverenost je temelj svobode v 21. stoletju."
+              title="Moji podatki so samo moji 🔐"
+              summary="Tvoji podatki so tvoje premoženje. In z njimi kupčkaš samo ti."
+              content={<>
+                <p className="mb-4">
+                  Danes pa je tako: objavljaš na nekem družabnem omrežju, gradiš povezave, ustvarjaš vsebino… in potem nekdo pritisne na gumb ter ti vse vzame. Vmes pa še lepo trguje s tvojimi podatki. Če te odklopijo, si odklopljen od vsega, kar si gradil. Takih iger pri nas ni več.
+                </p>
+                
+                <h4 className="font-semibold text-lg mb-3">Kako je pri nas</h4>
+                <p className="mb-4">
+                  V <strong>Novem Svetovnem Redu Lana</strong> smo prevzeli NOSTR protokol. To pomeni, da vsak uporabnik shranjuje svoje podatke ločeno od platform. Če platforma umre ali te izključi, tvoja identiteta in tvoje delo ostaneta nedotaknjena. Če pride nova platforma, si tam takoj – brez komplikacij.
+                </p>
+                
+                <p className="mb-4">
+                  Pri nas je vse decentralizirano: od podatkov do platform. Ni cenzure. Je pa <strong>samoodgovornost</strong>, ki ji ne uide nihče.
+                </p>
+                
+                <p>
+                  Tvoji podatki so tvoje bogastvo in z njimi lahko upravlja le tisti, ki ima <strong>privatni ključ tvoje Lane</strong>. Kopij ključev nikjer ne shranjujemo – niso na nobenem strežniku, niso v oblaku – samo pri tebi so. Če ključ izgubiš, ga ni enostavno obnoviti. Če pa bi ga kdo skušal ukrasti, to nima smisla, ker je v našem sistemu vse sledljivo.
+                </p>
+              </>}
               icon={<Database className="h-6 w-6" />}
               showLiveBadge={true}
             />
