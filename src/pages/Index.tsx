@@ -59,13 +59,9 @@ const Index = () => {
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
           <ExpandableSection
-            title="Zakaj obstajamo?"
-            summary="Zadeva je preprosta: zabluzili smo čist in, milo rečeno, smo v r…ti. Soseda sovražimo, za burek nimamo, bombe letijo križem kražem, ne veš kdo pije in kdo plača, vsak tretji je v depri…"
-            content="Nov Svetovni Red Lana
-
-Zadeva je preprosta: zabluzili smo čist in, milo rečeno, smo v r…ti. Soseda sovražimo, za burek nimamo, bombe letijo križem kražem, ne veš kdo pije in kdo plača, vsak tretji je v depri… Skratka, prihodnost ne zgleda ravno rožnata. Zato nam preostane samo eno: da se mamo fajn.
-
-Smo politično gibanje?
+            title="Nov Svetovni Red Lana"
+            summary="Zadeva je preprosta: zabluzili smo čist in, milo rečeno, smo v r…ti. Soseda sovražimo, za burek nimamo, bombe letijo križem kražem, ne veš kdo pije in kdo plača, vsak tretji je v depri… Skratka, prihodnost ne zgleda ravno rožnata. Zato nam preostane samo eno: da se mamo fajn."
+            content="Smo politično gibanje?
 
 Na neki način ja, ker delujemo v kolektivnem prostoru. A nismo še sigurni, ali smo stranka. Zakaj bi svojo čudovito idejo omejili zgolj na volitve? Če nas izvolijo, super, če ne, pa ne bomo sedeli v kotu in jokali. Naš cilj je preoblikovati to izkušnjo, imenovano Planet Zemlja, v nekaj več.
 
