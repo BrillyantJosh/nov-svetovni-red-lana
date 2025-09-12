@@ -76,17 +76,16 @@ A vsaka resnica ima dve plati. Če jih ne sprejmemo, smo bleferji. Zato zakaj pa
       <section className="py-16 px-4 bg-muted/30">
         <div className="max-w-4xl mx-auto">
           <ExpandableSection
-            title="Kdo smo?"
-            summary="Politično gibanje, ne ravno politična stranka. Smo skupina ljudi iz različnih strokovnih področij, združenih okoli skupne vizije transparentne, znanstveno utemeljene politike."
-            content="Nov Svetovni Red Lana je politično gibanje, ki deluje drugače kot tradicionalne politične stranke. Nismo hierarhična organizacija z vnaprej določenimi voditelji - smo mreža ljudi, ki pripomorejo k skupnim ciljem.
+            title="Naša zgodba"
+            summary="Vse skupaj se je začelo leta 2016, ko je Jure forkal Bitcoin in ustvaril novo kriptovaluto – Lano. Z leti se je pridružilo vedno več zanimivih ljudi."
+            content="Vse skupaj se je začelo leta 2016, ko je Jure forkal Bitcoin in ustvaril novo kriptovaluto – Lano.
+Kot večina kriptovalut je tudi ta šla malo gor in malo dol. Kasneje so jo fantje in punce malo preoblikovali, tako da so postale transakcije res poceni.
 
-Naša članska baza vključuje znanstvenike, tehnologe, umetnike, zdravnike, učitelje, kmetovalce, podjetnike in vse druge, ki si želijo aktivno soudeležbe pri oblikovanju prihodnosti.
+Z leti se je pridružilo vedno več zanimivih ljudi. Nekega lepega dne je Gašper predstavil Plan 15, nekaj let kasneje pa se je pridružil še Joško – model, ki živi v gozdu in snema take žgečkljive reči. On je rekel: 'Zakaj pa se ne bi zgledovali po naravi? Naj znotraj Lane nastane registrirana Lana, ki deluje kot protiutež trenutnim Lanam. Skupaj tvorita celoto. Kot zima in poletje, kot vdih in izdih …'
 
-Delujemo po načelih:
-- Transparentnosti: Vse naše odločitve in procesi so javni
-- Znanstvenosti: Naše politike temeljijo na dokazih in raziskavah
-- Sočutja: Vsaka politika mora koristiti vsem ljudem in planetu
-- Zabave: Če se ne moremo zabavati med gradnjo boljšega sveta, kaj potem sploh počnemo?"
+In tako smo zdaj tukaj.
+Igramo se dalje. Ni nobenega strogega plana. Sproti ustvarjamo.
+In predvsem: mamo se fajn. 😄"
             icon={<Users className="h-6 w-6" />}
             className="animate-fade-in"
           />
