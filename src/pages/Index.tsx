@@ -60,12 +60,16 @@ const Index = () => {
         <div className="max-w-4xl mx-auto">
           <ExpandableSection
             title="Zakaj obstajamo?"
-            summary="Svet se spreminja hitreje kot kadarkoli prej. Nova tehnologija, nova izzivi, nove možnosti. Potrebujemo svež pristop k politiki - takšnega, ki bo transparenten, zabaven in resnično služil ljudem."
-            content="Živimo v času neverjetnih sprememb. Umetna inteligenca preoblikuje gospodarstvo, klimatske spremembe zahtevajo takojšnje ukrepanje, digitalizacija spreminja način našega življenja. Tradicionalna politika se teh izzivov loteva z zastarelimi orodji.
+            summary="Zadeva je preprosta: zabluzili smo čist in, milo rečeno, smo v r…ti. Soseda sovražimo, za burek nimamo, bombe letijo križem kražem, ne veš kdo pije in kdo plača, vsak tretji je v depri…"
+            content="Nov Svetovni Red Lana
 
-Nov Svetovni Red Lana ni le še ena politična stranka. Smo gibanje ljudi, ki verjamemo, da je lahko politika zabavna, transparentna in učinkovita. Verjamemo, da se lahko 'mejmo fajn', medtem ko gradimo boljši svet za vse.
+Zadeva je preprosta: zabluzili smo čist in, milo rečeno, smo v r…ti. Soseda sovražimo, za burek nimamo, bombe letijo križem kražem, ne veš kdo pije in kdo plača, vsak tretji je v depri… Skratka, prihodnost ne zgleda ravno rožnata. Zato nam preostane samo eno: da se mamo fajn.
 
-Naš pristop temelji na znanosti, sočutju in zdravem razumu. Nismo tukaj, da delimo ljudi - tukaj smo, da jih združujemo okrog skupnih vrednot in vizije prihodnosti, ki jo lahko vsi podpremo."
+Smo politično gibanje?
+
+Na neki način ja, ker delujemo v kolektivnem prostoru. A nismo še sigurni, ali smo stranka. Zakaj bi svojo čudovito idejo omejili zgolj na volitve? Če nas izvolijo, super, če ne, pa ne bomo sedeli v kotu in jokali. Naš cilj je preoblikovati to izkušnjo, imenovano Planet Zemlja, v nekaj več.
+
+A vsaka resnica ima dve plati. Če jih ne sprejmemo, smo bleferji. Zato zakaj pa ne — mogoče pa gremo tudi na volitve, mogoče podpremo kerga zabavnega frajerja ali frajerko ali pač nič od tega in se bomo M'eli samo fajn, ko bodo vsi zagriženo iskali kako oblatiti nasprotnika, haha 😄. Mi smo polni čudnih zgodb tako, da lahko začnete kar pri nas ;)"
             icon={<Heart className="h-6 w-6" />}
             className="animate-fade-in"
           />
