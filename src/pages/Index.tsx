@@ -119,17 +119,33 @@ const Index = () => {
           <div className="grid gap-8 md:grid-cols-2">
             {/* Money & Economy */}
             <ExpandableSection
-              title="Denar in gospodarstvo"
-              summary="Nova monetarna politika, univerzalni osnovni dohodek, pravična porazdelitev bogastva."
-              content="Trenutni gospodarski sistem povzroča vse večje neenakosti in okoljsko škodo. Predlagamo:
-
-• Uvedba univerzalnega osnovnega dohodka
-• Reforma monetarnega sistema z demokratičnim nadzorom
-• Progresivno obdavčenje kapitala in bogastva
-• Podpora lokalnim gospodarstvom in zadružništvu
-• Zelena preusmeritev gospodarstva
-
-Cilj je gospodarstvo, ki služi ljudem in planetu, ne le kapitalu."
+              title="Vsi bomo imeli ful keša?"
+              summary="Ja, vsak Zemljan bo imel 1 LANO, ki bo vredna 100 milijonov zelencev."
+              content={<>
+                <p className="mb-4">
+                  Mama mia – brez keša lahko preživiš en dan, brez zraka pa samo par minut. A vseeno nas denar spravlja v stres dan za dnem, celo življenje. Če bi z zrakom dihali tako, kot "dihamo denar", bi bili vsi astmatiki, haha.
+                </p>
+                
+                <p className="mb-4">
+                  Denarni sistem potrebuje samo nekaj manjših preoblikovanj – in potem bomo polni keša. Tako zelo, da nihče več ne bo delal stvari, ki jih ne mara, ne bo garal nadur, ne bo škodil drugim ali svinjal planeta samo zato, da pobere dva centa več.
+                </p>
+                
+                <p className="mb-4">
+                  V Lana Svetovnem Redu smo pogledali, kako to počne narava. Ko se mamica in očka poseksata in nastane nova celica – zigota – se ta začne deliti eksponentno. Iz ene same celice nastane v 15 letih kar <strong>37 trilijonov celic</strong>. To je tako, kot da bi iz enega evra ali dolarja nastalo 37 trilijonov zelencev. To je več, kot je danes sploh vsega denarja v obtoku!
+                </p>
+                
+                <p className="mb-4">
+                  Vsak investitor sanja o taki rasti, a narava to počne popolnoma samoumevno. In mi smo dojeli, kako preprosto je to. Ne moremo verjeti, da v vseh teh tisočih letih še noben velefinančnik ni šel pogledat k naravi po navdih.
+                </p>
+                
+                <p className="mb-4">
+                  Zato – vsi bomo imeli ful keša. Na računu bo vsakemu svetilo kakih <strong>100 milijončkov</strong>, in potem boste dihali keš tako kot dihate zrak. V obilju.
+                </p>
+                
+                <p>
+                  In ja – <strong>imeli se bomo radi</strong>. 😄
+                </p>
+              </>}
               icon={<DollarSign className="h-6 w-6" />}
             />
 
