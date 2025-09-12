@@ -53,10 +53,10 @@ export const ExpandableSection = ({
 
       <div 
         className={`expandable-content mt-4 ${
-          isExpanded ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+          isExpanded ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <div className="pt-6 border-t border-border bg-muted/20 rounded-lg p-6 -mx-2">
+        <div className="pt-4 border-t border-border">
           <p className="text-foreground leading-relaxed whitespace-pre-line">
             {content}
           </p>
