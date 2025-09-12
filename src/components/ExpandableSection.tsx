@@ -55,7 +55,7 @@ export const ExpandableSection = ({
 
       <div 
         className={`expandable-content mt-4 ${
-          isExpanded ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+          isExpanded ? "max-h-none opacity-100" : "max-h-0 opacity-0"
         }`}
       >
         <div className="pt-4 border-t border-border">
