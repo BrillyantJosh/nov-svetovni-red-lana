@@ -233,17 +233,41 @@ const Index = () => {
 
             {/* New Legal Order */}
             <ExpandableSection
-              title="Nov pravni red"
-              summary="Pravni sistem, prilagojen digitalni dobi, z algoritmično transparentnostjo in pravičnostjo."
-              content="Pravni sistem mora slediti tehnološkemu razvoju:
-
-• Algoritmična transparentnost v sodstvu
-• Digitalne pravice in zasebnost kot temeljne pravice
-• Pravna regulacija umetne inteligence
-• Restoracijska pravica namesto kaznovalne
-• Mednarodni pravni okviri za globalne izzive
-
-Pravičnost mora biti dostopna, razumljiva in učinkovita za vse."
+              title="Nč se naumo več tožaril ⚖️"
+              summary="Danes iz sodišča hodimo skregani. Jutri bomo iz njega hodili kot prijatelji."
+              content={<>
+                <p className="mb-4">
+                  Tipična zgodba gre takole: <em>"Jaz nisem kriv, sosedov Janez je pujs in zato ga bom tožil, ker me je okoli prinesel."</em> In tako drug za drugega mislimo, da smo prašiči. Na koncu pridemo do tega, da je v očeh nekoga vsak od nas "pujs".
+                </p>
+                
+                <p className="mb-4">
+                  Če smo iskreni, razlike med nami in prepirljivimi otroki ni veliko. Ko se dva otroka skregata, smo mi pametni: rečemo jima, naj vsak prevzame svoj del odgovornosti, se opravičita drug drugemu in pobotata. Ampak ko odrastemo, gremo raje na sodišče in tožimo "prasce". Vsi smo pozabili na <strong>samoodgovornost in opravičilo</strong>.
+                </p>
+                
+                <h4 className="font-semibold text-lg mb-3">Nov pravni red</h4>
+                <p className="mb-4">
+                  V Novem Svetovnem Redu Lana ne poznamo nepotrebnih zakonov in kompliciranja.
+                  <br />
+                  Če pride do spora, preprosto poveš, kaj te muči. Vsak sprejme svoj del odgovornosti. Opravičita se, počakata dan, čustva se pomirijo — in problema ni več. Sodnik je samo opomnik, ne lovi krivcev in ne zbira dokazov.
+                </p>
+                
+                <p className="mb-4">
+                  <strong>Stvari so hitre, lahkotne in osvobajajoče.</strong>
+                  <br />
+                  Tisti pa, ki nimajo jajc, da bi prevzeli svoj del odgovornosti, se preprosto izključijo iz okolja. Njihovo premoženje se odregistrira in njihove Lane postanejo skoraj brez vrednosti.
+                </p>
+                
+                <p className="mb-4">
+                  Ostane jim samo izbira:
+                </p>
+                <div className="ml-4 mb-4">
+                  <p className="mb-2">👉 ali trmasto vztrajati v krivdi in obtoževanju,</p>
+                  <p>👉 ali imeti polno denarnico in lahkotno življenje.</p>
+                </div>
+                <p>
+                  <strong>Odločitev je vedno osebna.</strong>
+                </p>
+              </>}
               icon={<Scale className="h-6 w-6" />}
               showLiveBadge={true}
             />
