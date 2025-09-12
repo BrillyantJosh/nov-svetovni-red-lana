@@ -151,17 +151,41 @@ const Index = () => {
 
             {/* Extraterrestrial Communication */}
             <ExpandableSection
-              title="Zunajzemeljska komunikacija"
-              summary="Priprava na kontakt, transparentnost v raziskavah NLP, mednarodna koordinacija."
-              content="Dokazi o neidentificiranih letalnih objektih se kopičijo. Čas je za resno obravnavo te teme:
-
-• Popolna transparentnost vlad glede NLP raziskav
-• Ustanovitev mednarodne agencije za NLP raziskave
-• Pripravljenost protokolov za Prvi kontakt
-• Vlaganje v SETI in sorodne raziskave
-• Etične smernice za morebitno interakcijo z NLP
-
-Človeštvo mora biti pripravljeno na možnost, da nismo sami v vesolju."
+              title="Gremo se pogovarjat z vesoljci? 👽"
+              summary="A ne bi bilo kul, da bi začeli kramljati z vesoljci?"
+              content={<>
+                <p className="mb-4">
+                  Vprašanje za milijon dolarjev: <strong>a smo res sami v vesolju? A smo res mi tista najbolj napredna bitja v univerzumu?</strong>
+                </p>
+                <p className="mb-4">
+                  Pa saj moraš biti že skoraj vesoljc, da pomisliš, da ni nikogar bolj pametnega od tebe, haha.
+                </p>
+                
+                <p className="mb-4">
+                  Eden najbolj brihtnih ljudi v naši zgodovini je rekel: <strong>"Vem, da nič ne vem."</strong>
+                </p>
+                <p className="mb-4">
+                  Mi pa, ki smo mogoče četrt tako pametni kot on, si upamo razmišljati, da smo najpametnejši v celem univerzumu… a še niti stopili nismo na drug planet, kaj šele v drugo osončje ali galaksijo. Seveda nismo sami. Med nami je polno "vesoljčkov", a jih ne priznamo, ker jih nočemo videti.
+                </p>
+                
+                <p className="mb-4">
+                  <strong>Ampak veste, kje je zajec?</strong>
+                </p>
+                <p className="mb-4">
+                  Človek se že od svoje sence v temi ustraši. Presrani smo, ko vidimo medveda. Ko osa prileti mimo glave, mahamo, kot da gre za življenje. In zdaj ti, veliki pogumnež, želiš videti vesoljca? Verjemi, če se ti pojavi pred vrati, boš pograbil nož, palico ali puško in se branil, kot da te hoče fentat.
+                </p>
+                
+                <p className="mb-4">
+                  Mi smo nepotrpežljivi in prestrašeni, oni pa so umirjeni in potrpežljivi. Nikamor se jim ne mudi. Počasi, z majhnimi koraki, nas mehčajo. Zato imate toliko primerov kanaliziranja vesoljčkov – da nas počasi pripravljajo.
+                </p>
+                
+                <p className="mb-4">
+                  V <strong>Novem Svetovnem Redu Lana</strong> bomo najprej javno priznali, da obstajajo, in začeli z njimi komunicirati preko kanalov. Radovedno, z odprtim srcem, da nam prišepnejo kaj zanimivega. Korak za korakom.
+                </p>
+                <p>
+                  Saj poznate komad: pasito, pasito, despacito… 😉
+                </p>
+              </>}
               icon={<Rocket className="h-6 w-6" />}
             />
 
