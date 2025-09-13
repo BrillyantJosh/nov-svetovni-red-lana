@@ -546,15 +546,21 @@ Gospodarstvo mora biti orodje človeškega blagostanja."
             />
           </div>
 
+          <div className="text-center mb-12">
+            <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+              Vsak mesec vzklije ena nova igračka, včasih dve, morda celo tri. Vse pa rastejo v podporo temu decentraliziranemu sistemu, ki korak za korakom preoblikuje izkušnjo človeka na Zemlji. In veš kaj? Pomemben si tudi ti — da skupaj ustvarjamo, se povezujemo in se imamo res fajn.
+            </p>
+          </div>
+
           <div className="text-center">
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
               <Button className="gradient-button text-lg px-8 py-4">
                 <Heart className="mr-2 h-5 w-5" />
-                Pridruži se gibanju
+                Skoč na Vlak, čuču
               </Button>
               <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-4">
                 <Sparkles className="mr-2 h-5 w-5" />
-                Sodeluj pri projektih
+                Želim zaslužit fulll keša
               </Button>
             </div>
             
