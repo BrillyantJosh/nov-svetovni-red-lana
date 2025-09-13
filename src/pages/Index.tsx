@@ -37,7 +37,7 @@ const Index = () => {
           
           <div className="animate-slide-up delay-300">
             <Button className="gradient-button text-lg px-8 py-4 animate-bounce-gentle">
-              Pridruži se gibanju
+              Skoč na Vlak, čuču
               <ChevronRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
