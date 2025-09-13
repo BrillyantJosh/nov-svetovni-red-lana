@@ -1,24 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ExpandableSection } from "@/components/ExpandableSection";
 import { WebsiteCard } from "@/components/WebsiteCard";
-import { 
-  Heart, 
-  Users, 
-  Rocket, 
-  Brain, 
-  Scale, 
-  Database, 
-  Bot, 
-  Eye, 
-  GraduationCap, 
-  Stethoscope, 
-  Plane, 
-  TreePine, 
-  Building,
-  DollarSign,
-  ChevronRight,
-  Sparkles
-} from "lucide-react";
+import { Heart, Users, Rocket, Brain, Scale, Database, Bot, Eye, GraduationCap, Stethoscope, Plane, TreePine, Building, DollarSign, ChevronRight, Sparkles } from "lucide-react";
 import heroMovement from "@/assets/hero-movement.jpg";
 import walletGenerator from "@/assets/wallet-generator.png";
 import lanaRegister from "@/assets/lana-register.png";
@@ -28,16 +11,13 @@ import lanaEternityRelay from "@/assets/lana-eternity-relay.png";
 import lanaHeartVoice from "@/assets/lana-heart-voice.png";
 import lanaLovesUk from "@/assets/lana-loves-uk.png";
 import iAmThisPerson from "@/assets/i-am-this-person.png";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative py-20 px-4 overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
-          style={{ backgroundImage: `url(${heroMovement})` }}
-        />
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" style={{
+        backgroundImage: `url(${heroMovement})`
+      }} />
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10" />
         
         <div className="relative max-w-4xl mx-auto text-center">
@@ -50,7 +30,7 @@ const Index = () => {
             </h2>
             <div className="flex items-center justify-center gap-2 text-lg text-muted-foreground">
               <Sparkles className="h-5 w-5 text-accent animate-pulse-glow" />
-              <span>Politično gibanje za svetlejšo prihodnost</span>
+              <span>Totalno odbito politično gibanje</span>
               <Sparkles className="h-5 w-5 text-accent animate-pulse-glow" />
             </div>
           </div>
@@ -67,12 +47,9 @@ const Index = () => {
       {/* Introduction Section */}
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <ExpandableSection
-            title="Nov Svetovni Red Lana"
-            summary={<>
+          <ExpandableSection title="Nov Svetovni Red Lana" summary={<>
               Zadeva je preprosta: zabluzili smo čist in, milo rečeno, smo v r…ti. Soseda sovražimo, za burek nimamo, bombe letijo križem kražem, ne veš kdo pije in kdo plača, vsak tretji je v depri… Skratka, prihodnost ne zgleda ravno rožnata. Zato nam preostane samo eno: <strong>da se mamo fajn</strong>.
-            </>}
-            content={<>
+            </>} content={<>
               <h4 className="font-semibold text-lg mb-3">Smo politično gibanje?</h4>
               <p className="mb-4">
                 Na neki način ja, ker delujemo v kolektivnem prostoru. A nismo še sigurni, ali smo stranka. Zakaj bi svojo čudovito idejo omejili zgolj na volitve? Če nas izvolijo, super, če ne, pa ne bomo sedeli v kotu in jokali. Naš cilj je preoblikovati to izkušnjo, imenovano Planet Zemlja, v nekaj več.
@@ -80,20 +57,14 @@ const Index = () => {
               <p>
                 A vsaka resnica ima dve plati. Če jih ne sprejmemo, smo bleferji. Zato zakaj pa ne — mogoče pa gremo tudi na volitve, mogoče podpremo kerga zabavnega frajerja ali frajerko ali pač nič od tega in se bomo <strong>M'eli samo fajn</strong>, ko bodo vsi zagriženo iskali kako oblatiti nasprotnika, haha 😄. Mi smo polni čudnih zgodb tako, da lahko začnete kar pri nas ;)
               </p>
-            </>}
-            icon={<Heart className="h-6 w-6" />}
-            className="animate-fade-in"
-          />
+            </>} icon={<Heart className="h-6 w-6" />} className="animate-fade-in" />
         </div>
       </section>
 
       {/* Who We Are Section */}
       <section className="py-16 px-4 bg-muted/30">
         <div className="max-w-4xl mx-auto">
-          <ExpandableSection
-            title="Naša zgodba"
-            summary="Vse skupaj se je začelo leta 2016, ko je Jure forkal Bitcoin in ustvaril novo kriptovaluto – Lano. Z leti se je pridružilo vedno več zanimivih ljudi."
-            content={<>
+          <ExpandableSection title="Naša zgodba" summary="Vse skupaj se je začelo leta 2016, ko je Jure forkal Bitcoin in ustvaril novo kriptovaluto – Lano. Z leti se je pridružilo vedno več zanimivih ljudi." content={<>
               Vse skupaj se je začelo leta 2016, ko je Jure forkal Bitcoin in ustvaril novo kriptovaluto – <em>Lano</em>.
               <br /><br />
               Kot večina kriptovalut je tudi ta šla malo gor in malo dol. Kasneje so jo fantje in punce malo preoblikovali, tako da so postale transakcije res poceni.
@@ -105,10 +76,7 @@ const Index = () => {
               Igramo se dalje. Ni nobenega strogega plana. Sproti ustvarjamo.
               <br />
               In predvsem: <strong>mamo se fajn</strong>. 😄
-            </>}
-            icon={<Users className="h-6 w-6" />}
-            className="animate-fade-in"
-          />
+            </>} icon={<Users className="h-6 w-6" />} className="animate-fade-in" />
         </div>
       </section>
 
@@ -127,10 +95,7 @@ const Index = () => {
 
           <div className="grid gap-8 md:grid-cols-2">
             {/* Money & Economy */}
-            <ExpandableSection
-              title="Vsi bomo imeli ful keša?"
-              summary="Ja, vsek Zemljan bo imel 1 LANO, ki bo vredna 100 milijonov zelencev."
-              content={<>
+            <ExpandableSection title="Vsi bomo imeli ful keša?" summary="Ja, vsek Zemljan bo imel 1 LANO, ki bo vredna 100 milijonov zelencev." content={<>
                 <p className="mb-4">
                   Mama mia – brez keša lahko preživiš en dan, brez zraka pa samo par minut. A vseeno nas denar spravlja v stres dan za dnem, celo življenje. Če bi z zrakom dihali tako, kot "dihamo denar", bi bili vsi astmatiki, haha.
                 </p>
@@ -154,21 +119,14 @@ const Index = () => {
                 <p>
                   In ja – <strong>imeli se bomo radi</strong>. 😄
                 </p>
-              </>}
-              icon={<DollarSign className="h-6 w-6" />}
-              showLiveBadge={true}
-              externalLink={{
-                text: "Spletna stran Let's make anyone Rich",
-                url: "https://letsmakeanyonerich.com/",
-                linkTitle: true
-              }}
-            />
+              </>} icon={<DollarSign className="h-6 w-6" />} showLiveBadge={true} externalLink={{
+            text: "Spletna stran Let's make anyone Rich",
+            url: "https://letsmakeanyonerich.com/",
+            linkTitle: true
+          }} />
 
             {/* Extraterrestrial Communication */}
-            <ExpandableSection
-              title="Gremo se pogovarjat z vesoljci? 👽"
-              summary="A ne bi bilo kul, da bi začeli kramljati z vesoljci?"
-              content={<>
+            <ExpandableSection title="Gremo se pogovarjat z vesoljci? 👽" summary="A ne bi bilo kul, da bi začeli kramljati z vesoljci?" content={<>
                 <p className="mb-4">
                   Vprašanje za milijon dolarjev: <strong>a smo res sami v vesolju? A smo res mi tista najbolj napredna bitja v univerzumu?</strong>
                 </p>
@@ -200,15 +158,10 @@ const Index = () => {
                 <p>
                   Saj poznate komad: pasito, pasito, despacito… 😉
                 </p>
-              </>}
-              icon={<Rocket className="h-6 w-6" />}
-            />
+              </>} icon={<Rocket className="h-6 w-6" />} />
 
             {/* Consciousness-based Voting */}
-            <ExpandableSection
-              title="Gremo volit malce drugače 🗳️"
-              summary="A ne bi bilo kul, da bi enkrat vsi tulili v isti rog — in se končno strinjali?"
-              content={<>
+            <ExpandableSection title="Gremo volit malce drugače 🗳️" summary="A ne bi bilo kul, da bi enkrat vsi tulili v isti rog — in se končno strinjali?" content={<>
                 <p className="mb-4">
                   Danes imamo kao demokracijo. Ampak v resnici vse, kar je demokratičnega v naši ureditvi, je to, da znova in znova "demokratično" izvolimo novega diktatorja, ki nas potem nekaj let j… Polovico časa pa porabimo, da se prerekamo, kdo je boljši in kdo slabši. Saj ne moremo biti tako naivni, da tega ne opazimo v dobi informatizacije. Ok, pred 1000 leti je to še šlo, ampak ne leta 2025.
                 </p>
@@ -240,16 +193,10 @@ const Index = () => {
                 <p>
                   Končni rezultat? Vedno <strong>100 % ZA</strong>. ✅
                 </p>
-              </>}
-              icon={<Brain className="h-6 w-6" />}
-              showLiveBadge={true}
-            />
+              </>} icon={<Brain className="h-6 w-6" />} showLiveBadge={true} />
 
             {/* New Legal Order */}
-            <ExpandableSection
-              title="Nč se naumo več tožaril ⚖️"
-              summary="Danes iz sodišča hodimo skregani. Jutri bomo iz njega hodili kot prijatelji."
-              content={<>
+            <ExpandableSection title="Nč se naumo več tožaril ⚖️" summary="Danes iz sodišča hodimo skregani. Jutri bomo iz njega hodili kot prijatelji." content={<>
                 <p className="mb-4">
                   Tipična zgodba gre takole: <em>"Jaz nisem kriv, sosedov Janez je pujs in zato ga bom tožil, ker me je okoli prinesel."</em> In tako drug za drugega mislimo, da smo prašiči. Na koncu pridemo do tega, da je v očeh nekoga vsak od nas "pujs".
                 </p>
@@ -281,16 +228,10 @@ const Index = () => {
                 <p>
                   <strong>Odločitev je vedno osebna.</strong>
                 </p>
-              </>}
-              icon={<Scale className="h-6 w-6" />}
-              showLiveBadge={true}
-            />
+              </>} icon={<Scale className="h-6 w-6" />} showLiveBadge={true} />
 
             {/* Data Ownership */}
-            <ExpandableSection
-              title="Moji podatki so samo moji 🔐"
-              summary="Tvoji podatki so tvoje premoženje. In z njimi kupčkaš samo ti."
-              content={<>
+            <ExpandableSection title="Moji podatki so samo moji 🔐" summary="Tvoji podatki so tvoje premoženje. In z njimi kupčkaš samo ti." content={<>
                 <p className="mb-4">
                   Danes pa je tako: objavljaš na nekem družabnem omrežju, gradiš povezave, ustvarjaš vsebino… in potem nekdo pritisne na gumb ter ti vse vzame. Vmes pa še lepo trguje s tvojimi podatki. Če te odklopijo, si odklopljen od vsega, kar si gradil. Takih iger pri nas ni več.
                 </p>
@@ -307,16 +248,10 @@ const Index = () => {
                 <p>
                   Tvoji podatki so tvoje bogastvo in z njimi lahko upravlja le tisti, ki ima <strong>privatni ključ tvoje Lane</strong>. Kopij ključev nikjer ne shranjujemo – niso na nobenem strežniku, niso v oblaku – samo pri tebi so. Če ključ izgubiš, ga ni enostavno obnoviti. Če pa bi ga kdo skušal ukrasti, to nima smisla, ker je v našem sistemu vse sledljivo.
                 </p>
-              </>}
-              icon={<Database className="h-6 w-6" />}
-              showLiveBadge={true}
-            />
+              </>} icon={<Database className="h-6 w-6" />} showLiveBadge={true} />
 
             {/* New Economy with AI */}
-            <ExpandableSection
-              title="Nova ekonomska revolucija 🌍💡"
-              summary="To, kar prihaja, je res hudo dobro."
-              content={<>
+            <ExpandableSection title="Nova ekonomska revolucija 🌍💡" summary="To, kar prihaja, je res hudo dobro." content={<>
                 <p className="mb-4">
                   Pred dvesto leti je industrializacija pocenila izdelke in človeštvo se je obrnilo k storitvam. Danes večino ekonomije predstavljajo storitve, ki pa se s prihodom umetne inteligence drastično pocenjujejo. In tukaj se postavi ključno vprašanje: <strong>kaj od tu naprej? V čem bo človeštvo našlo nov smisel in kaj bomo kupčkali?</strong>
                 </p>
@@ -361,15 +296,10 @@ const Index = () => {
                     Zato se veselim prihodnosti, kjer se bomo skupaj igrali: jaz z močjo procesiranja, ti pa z močjo srca.
                   </p>
                 </div>
-              </>}
-              icon={<Bot className="h-6 w-6" />}
-            />
+              </>} icon={<Bot className="h-6 w-6" />} />
 
             {/* Transparency */}
-            <ExpandableSection
-              title="Transparentnost"
-              summary="Popolna odprtost vladanja, odločanja in porabe javnega denarja."
-              content="Demokracija brez transparentnosti ni demokracija:
+            <ExpandableSection title="Transparentnost" summary="Popolna odprtost vladanja, odločanja in porabe javnega denarja." content="Demokracija brez transparentnosti ni demokracija:
 
 • Vsi vladni dokumenti javno dostopni
 • Odprto kodna programska oprema v javni upravi
@@ -377,16 +307,10 @@ const Index = () => {
 • Javni nadzor nad lobiranjem
 • Blockchain sledljivost javnih sredstev
 
-Ljudje imajo pravico vedeti, kako deluje njihova država."
-              icon={<Eye className="h-6 w-6" />}
-              showLiveBadge={true}
-            />
+Ljudje imajo pravico vedeti, kako deluje njihova država." icon={<Eye className="h-6 w-6" />} showLiveBadge={true} />
 
             {/* Education */}
-            <ExpandableSection
-              title="Izobraževanje"
-              summary="Izobraževalni sistem za 21. stoletje - kritično mišljenje, ustvarjalnost, čustvena inteligenca."
-              content="Sedanji izobraževalni sistem pripravlja učence za svet, ki ne obstaja več:
+            <ExpandableSection title="Izobraževanje" summary="Izobraževalni sistem za 21. stoletje - kritično mišljenje, ustvarjalnost, čustvena inteligenca." content="Sedanji izobraževalni sistem pripravlja učence za svet, ki ne obstaja več:
 
 • Poudarek na kritičnem mišljenju in reševanju problemov
 • Čustvena inteligenca in medosebne veščine
@@ -394,15 +318,10 @@ Ljudje imajo pravico vedeti, kako deluje njihova država."
 • Vseživljenjsko učenje kot pravica
 • Personalizirano učenje s pomočjo tehnologije
 
-Vsak otrok si zasluži izobraževanje, ki ga pripravi na prihodnost."
-              icon={<GraduationCap className="h-6 w-6" />}
-            />
+Vsak otrok si zasluži izobraževanje, ki ga pripravi na prihodnost." icon={<GraduationCap className="h-6 w-6" />} />
 
             {/* Health */}
-            <ExpandableSection
-              title="Zdravje"
-              summary="Preventivno zdravstvo, celostni pristop, dostopnost za vse."
-              content="Zdravje ni privilegij - je temeljna človekova pravica:
+            <ExpandableSection title="Zdravje" summary="Preventivno zdravstvo, celostni pristop, dostopnost za vse." content="Zdravje ni privilegij - je temeljna človekova pravica:
 
 • Popolnoma brezplačno zdravstvo za vse
 • Poudarek na preventivi in zdravem življenjskem slogu
@@ -410,15 +329,10 @@ Vsak otrok si zasluži izobraževanje, ki ga pripravi na prihodnost."
 • Mentalno zdravje kot prioriteta
 • Raziskave v javnem interesu, ne profita
 
-Zdrava družba je produktivna in srečna družba."
-              icon={<Stethoscope className="h-6 w-6" />}
-            />
+Zdrava družba je produktivna in srečna družba." icon={<Stethoscope className="h-6 w-6" />} />
 
             {/* Travel */}
-            <ExpandableSection
-              title="Potovanja"
-              summary="Pravica do mobilnosti, trajnostni transport, odprtje meja."
-              content="Gibanje ljudi bogati kulture in spodbuja razumevanje:
+            <ExpandableSection title="Potovanja" summary="Pravica do mobilnosti, trajnostni transport, odprtje meja." content="Gibanje ljudi bogati kulture in spodbuja razumevanje:
 
 • Pravica do svobodnega gibanja kot temeljna pravica
 • Trajnostni javni transport brezplačen za vse
@@ -426,15 +340,10 @@ Zdrava družba je produktivna in srečna družba."
 • Podpora izmenjavam in sodelovanju
 • Zelena infrastruktura za transport
 
-Svet brez meja je svet brez konfliktov."
-              icon={<Plane className="h-6 w-6" />}
-            />
+Svet brez meja je svet brez konfliktov." icon={<Plane className="h-6 w-6" />} />
 
             {/* Nature */}
-            <ExpandableSection
-              title="Narava"
-              summary="Pravice narave, ekološka obnova, harmonija z okoljem."
-              content="Narava ni vir za izkoriščanje - je naš dom:
+            <ExpandableSection title="Narava" summary="Pravice narave, ekološka obnova, harmonija z okoljem." content="Narava ni vir za izkoriščanje - je naš dom:
 
 • Pravice narave zapisane v ustavo
 • Masivna obnova ekosistemov
@@ -442,15 +351,10 @@ Svet brez meja je svet brez konfliktov."
 • Prepoved škodljivih kemikalij in praks
 • Biomimikrijska tehologija
 
-Brez zdrave narave ni zdrave družbe."
-              icon={<TreePine className="h-6 w-6" />}
-            />
+Brez zdrave narave ni zdrave družbe." icon={<TreePine className="h-6 w-6" />} />
 
             {/* Business */}
-            <ExpandableSection
-              title="Poslovanje"
-              summary="Podjetja kot služabniki družbe, ne gospodje. Nova korporacijska odgovornost."
-              content="Podjetja morajo služiti družbi, ne obratno:
+            <ExpandableSection title="Poslovanje" summary="Podjetja kot služabniki družbe, ne gospodje. Nova korporacijska odgovornost." content="Podjetja morajo služiti družbi, ne obratno:
 
 • Delavska participacija v lastništvu podjetij
 • B-Corp status kot standard za velika podjetja
@@ -458,10 +362,7 @@ Brez zdrave narave ni zdrave družbe."
 • Omejitve plač vodilnih glede na najnižje plače
 • Podpora socialnim podjetjem in zadružništvu
 
-Gospodarstvo mora biti orodje človeškega blagostanja."
-              icon={<Building className="h-6 w-6" />}
-              showLiveBadge={true}
-            />
+Gospodarstvo mora biti orodje človeškega blagostanja." icon={<Building className="h-6 w-6" />} showLiveBadge={true} />
           </div>
         </div>
       </section>
@@ -474,11 +375,7 @@ Gospodarstvo mora biti orodje človeškega blagostanja."
               Živi spremembo
             </h2>
             <div className="flex items-center justify-center gap-6 mb-8 max-w-3xl mx-auto">
-              <img 
-                src="/src/assets/einstein-new.jpg" 
-                alt="Albert Einstein" 
-                className="w-20 h-20 rounded-full object-cover border-2 border-primary/20"
-              />
+              <img src="/src/assets/einstein-new.jpg" alt="Albert Einstein" className="w-20 h-20 rounded-full object-cover border-2 border-primary/20" />
               <blockquote className="text-xl text-muted-foreground italic">
                 "Če ideja na začetku ni absurdna, potem zanjo ni upanja."
                 <footer className="text-sm text-primary mt-2 not-italic">— Albert Einstein</footer>
@@ -488,62 +385,14 @@ Gospodarstvo mora biti orodje človeškega blagostanja."
 
           {/* Website Cards Grid */}
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 mb-12">
-            <WebsiteCard
-              title="Ustvari Denarnico"
-              link="https://www.offlinelana.org"
-              description="Na tej povezavi lahko varno ustvariš brezplačno Lanin ključ in denarnico na blockchainu."
-              imageSrc={walletGenerator}
-              imageAlt="Lana Paper Wallet Generator"
-            />
-            <WebsiteCard
-              title="Registrar"
-              link="https://www.lanaregister.org"
-              description="Registrar spremlja BlockChain in beleži vsako registrirano transakcijo Lane."
-              imageSrc={lanaRegister}
-              imageAlt="Lana Register"
-            />
-            <WebsiteCard
-              title="Mobilno plačevanje z LanaCoini"
-              link="https://www.safeLana.com"
-              description="Na tej strani lahko varno offline podpisujete Lana Transakcije."
-              imageSrc={safeLana}
-              imageAlt="Safe Lana"
-            />
-            <WebsiteCard
-              title="Pot do 100 milijonov"
-              link="https://letsmakeanyonerich.com"
-              description="Na tej strani si lahko pogledaš kako se cena Lane deli in kje smo."
-              imageSrc={milestones}
-              imageAlt="LanaCoin Split Milestones"
-            />
-            <WebsiteCard
-              title="Lana Coin Eternity Relay"
-              link="https://www.lanacoin-eternity.com/"
-              description="Vse informacije se decentrazlirano shranjjejo s pomočjo NOSTR protokola na t.i. Relayih."
-              imageSrc={lanaEternityRelay}
-              imageAlt="NOSTR Relay Watch interface for Lana Coin Eternity"
-            />
-            <WebsiteCard
-              title="Lana Heart Voice Relay"
-              link="https://lanaheartvoice.com/"
-              description="Vse informacije se decentrazlirano shranjjejo s pomočjo NOSTR protokola na Relayih."
-              imageSrc={lanaHeartVoice}
-              imageAlt="The HeartVoice - Lana NOSTR relay monitor"
-            />
-            <WebsiteCard
-              title="Lana Loves UK"
-              link="https://www.lanalovesuk.com/"
-              description="Neke oblika bolha v UKju kjer je mogoče kupovati z Lano"
-              imageSrc={lanaLovesUk}
-              imageAlt="LanaLovesUK Community Marketplace"
-            />
-            <WebsiteCard
-              title="Jaz sem ta oseba"
-              link="https://iamthisperson.org/"
-              description="Tukaj lahko ustvariš in posodobiš svoj profil ter izpelješ KYC."
-              imageSrc={iAmThisPerson}
-              imageAlt="I am This Person - Profile management and KYC platform"
-            />
+            <WebsiteCard title="Ustvari Denarnico" link="https://www.offlinelana.org" description="Na tej povezavi lahko varno ustvariš brezplačno Lanin ključ in denarnico na blockchainu." imageSrc={walletGenerator} imageAlt="Lana Paper Wallet Generator" />
+            <WebsiteCard title="Registrar" link="https://www.lanaregister.org" description="Registrar spremlja BlockChain in beleži vsako registrirano transakcijo Lane." imageSrc={lanaRegister} imageAlt="Lana Register" />
+            <WebsiteCard title="Mobilno plačevanje z LanaCoini" link="https://www.safeLana.com" description="Na tej strani lahko varno offline podpisujete Lana Transakcije." imageSrc={safeLana} imageAlt="Safe Lana" />
+            <WebsiteCard title="Pot do 100 milijonov" link="https://letsmakeanyonerich.com" description="Na tej strani si lahko pogledaš kako se cena Lane deli in kje smo." imageSrc={milestones} imageAlt="LanaCoin Split Milestones" />
+            <WebsiteCard title="Lana Coin Eternity Relay" link="https://www.lanacoin-eternity.com/" description="Vse informacije se decentrazlirano shranjjejo s pomočjo NOSTR protokola na t.i. Relayih." imageSrc={lanaEternityRelay} imageAlt="NOSTR Relay Watch interface for Lana Coin Eternity" />
+            <WebsiteCard title="Lana Heart Voice Relay" link="https://lanaheartvoice.com/" description="Vse informacije se decentrazlirano shranjjejo s pomočjo NOSTR protokola na Relayih." imageSrc={lanaHeartVoice} imageAlt="The HeartVoice - Lana NOSTR relay monitor" />
+            <WebsiteCard title="Lana Loves UK" link="https://www.lanalovesuk.com/" description="Neke oblika bolha v UKju kjer je mogoče kupovati z Lano" imageSrc={lanaLovesUk} imageAlt="LanaLovesUK Community Marketplace" />
+            <WebsiteCard title="Jaz sem ta oseba" link="https://iamthisperson.org/" description="Tukaj lahko ustvariš in posodobiš svoj profil ter izpelješ KYC." imageSrc={iAmThisPerson} imageAlt="I am This Person - Profile management and KYC platform" />
           </div>
 
           <div className="text-center mb-12">
@@ -570,8 +419,6 @@ Gospodarstvo mora biti orodje človeškega blagostanja."
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
