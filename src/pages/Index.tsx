@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ExpandableSection } from "@/components/ExpandableSection";
 import { WebsiteCard } from "@/components/WebsiteCard";
 import { Heart, Users, Rocket, Brain, Scale, Database, Bot, Eye, GraduationCap, Stethoscope, Plane, TreePine, Building, DollarSign, ChevronRight, Sparkles } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroMovement from "@/assets/hero-movement.jpg";
 import walletGenerator from "@/assets/wallet-generator.png";
 import lanaRegister from "@/assets/lana-register.png";
@@ -36,10 +37,12 @@ const Index = () => {
           </div>
           
           <div className="animate-slide-up delay-300">
-            <Button className="gradient-button text-lg px-8 py-4 animate-bounce-gentle">
-              Skoč na Vlak, čuču
-              <ChevronRight className="ml-2 h-5 w-5" />
-            </Button>
+            <Link to="/join-movement">
+              <Button className="gradient-button text-lg px-8 py-4 animate-bounce-gentle">
+                Skoč na Vlak, čuču
+                <ChevronRight className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
@@ -415,10 +418,12 @@ Gospodarstvo mora biti orodje človeškega blagostanja." icon={<Building classNa
 
           <div className="text-center">
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-              <Button className="gradient-button text-lg px-8 py-4">
-                <Heart className="mr-2 h-5 w-5" />
-                Skoč na Vlak, čuču
-              </Button>
+              <Link to="/join-movement">
+                <Button className="gradient-button text-lg px-8 py-4">
+                  <Heart className="mr-2 h-5 w-5" />
+                  Skoč na Vlak, čuču
+                </Button>
+              </Link>
               <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-4">
                 <Sparkles className="mr-2 h-5 w-5" />
                 Želim zaslužit fulll keša
