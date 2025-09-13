@@ -120,7 +120,7 @@ const Index = () => {
             {/* Money & Economy */}
             <ExpandableSection
               title="Vsi bomo imeli ful keša?"
-              summary="Ja, vsak Zemljan bo imel 1 LANO, ki bo vredna 100 milijonov zelencev."
+              summary="Ja, vsek Zemljan bo imel 1 LANO, ki bo vredna 100 milijonov zelencev."
               content={<>
                 <p className="mb-4">
                   Mama mia – brez keša lahko preživiš en dan, brez zraka pa samo par minut. A vseeno nas denar spravlja v stres dan za dnem, celo življenje. Če bi z zrakom dihali tako, kot "dihamo denar", bi bili vsi astmatiki, haha.
@@ -148,6 +148,11 @@ const Index = () => {
               </>}
               icon={<DollarSign className="h-6 w-6" />}
               showLiveBadge={true}
+              externalLink={{
+                text: "Spletna stran Let's make anyone Rich",
+                url: "https://letsmakeanyonerich.com/",
+                linkTitle: true
+              }}
             />
 
             {/* Extraterrestrial Communication */}

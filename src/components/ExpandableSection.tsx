@@ -10,6 +10,11 @@ interface ExpandableSectionProps {
   icon?: React.ReactNode;
   className?: string;
   showLiveBadge?: boolean;
+  externalLink?: {
+    text: string;
+    url: string;
+    linkTitle?: boolean; // Whether to also make the title clickable
+  };
 }
 
 export const ExpandableSection = ({ 
@@ -18,7 +23,8 @@ export const ExpandableSection = ({
   content, 
   icon,
   className = "",
-  showLiveBadge = false
+  showLiveBadge = false,
+  externalLink
 }: ExpandableSectionProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -32,7 +38,18 @@ export const ExpandableSection = ({
         )}
         <div className="flex-1">
           <div className="flex items-center gap-3 mb-2">
-            <h3 className="section-header">{title}</h3>
+            {externalLink?.linkTitle ? (
+              <a 
+                href={externalLink.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="section-header hover:text-primary transition-colors"
+              >
+                {title}
+              </a>
+            ) : (
+              <h3 className="section-header">{title}</h3>
+            )}
             {showLiveBadge && <LiveBadge />}
           </div>
           <div className="text-muted-foreground leading-relaxed">
@@ -41,22 +58,34 @@ export const ExpandableSection = ({
         </div>
       </div>
       
-      <div className="flex justify-between items-center">
-        <Button 
-          variant="ghost" 
-          onClick={() => setIsExpanded(!isExpanded)}
-          className="text-primary hover:text-primary-glow transition-movement p-0"
-        >
-          {isExpanded ? (
-            <>
-              Skrij podrobnosti <ChevronUp className="ml-2 h-4 w-4" />
-            </>
-          ) : (
-            <>
-              Preberi več <ChevronDown className="ml-2 h-4 w-4" />
-            </>
+      <div className="flex justify-between items-center flex-wrap gap-2">
+        <div className="flex items-center gap-4 flex-wrap">
+          <Button 
+            variant="ghost" 
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="text-primary hover:text-primary-glow transition-movement p-0"
+          >
+            {isExpanded ? (
+              <>
+                Skrij podrobnosti <ChevronUp className="ml-2 h-4 w-4" />
+              </>
+            ) : (
+              <>
+                Preberi več <ChevronDown className="ml-2 h-4 w-4" />
+              </>
+            )}
+          </Button>
+          {externalLink && (
+            <a
+              href={externalLink.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary-glow transition-movement underline text-sm"
+            >
+              {externalLink.text}
+            </a>
           )}
-        </Button>
+        </div>
       </div>
 
       <div 
