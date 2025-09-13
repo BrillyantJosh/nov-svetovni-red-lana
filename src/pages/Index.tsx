@@ -245,9 +245,21 @@ const Index = () => {
                   Pri nas je vse decentralizirano: od podatkov do platform. Ni cenzure. Je pa <strong>samoodgovornost</strong>, ki ji ne uide nihče.
                 </p>
                 
-                <p>
+                <p className="mb-6">
                   Tvoji podatki so tvoje bogastvo in z njimi lahko upravlja le tisti, ki ima <strong>privatni ključ tvoje Lane</strong>. Kopij ključev nikjer ne shranjujemo – niso na nobenem strežniku, niso v oblaku – samo pri tebi so. Če ključ izgubiš, ga ni enostavno obnoviti. Če pa bi ga kdo skušal ukrasti, to nima smisla, ker je v našem sistemu vse sledljivo.
                 </p>
+                
+                {/* YouTube Video Embed */}
+                <div className="relative w-full h-0 pb-[56.25%] rounded-lg overflow-hidden shadow-lg">
+                  <iframe
+                    className="absolute top-0 left-0 w-full h-full"
+                    src="https://www.youtube.com/embed/0YDj1QdL2Zs?start=6"
+                    title="Moji podatki so samo moji"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  />
+                </div>
               </>} icon={<Database className="h-6 w-6" />} showLiveBadge={true} />
 
             {/* New Economy with AI */}
