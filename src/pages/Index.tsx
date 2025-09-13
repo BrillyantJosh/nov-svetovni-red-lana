@@ -24,6 +24,10 @@ import walletGenerator from "@/assets/wallet-generator.png";
 import lanaRegister from "@/assets/lana-register.png";
 import safeLana from "@/assets/safe-lana.png";
 import milestones from "@/assets/milestones.png";
+import lanaEternityRelay from "@/assets/lana-eternity-relay.png";
+import lanaHeartVoice from "@/assets/lana-heart-voice.png";
+import lanaLovesUk from "@/assets/lana-loves-uk.png";
+import iAmThisPerson from "@/assets/i-am-this-person.png";
 
 const Index = () => {
   return (
@@ -511,6 +515,34 @@ Gospodarstvo mora biti orodje človeškega blagostanja."
               description="Na tej strani si lahko pogledaš kako se cena Lane deli in kje smo."
               imageSrc={milestones}
               imageAlt="LanaCoin Split Milestones"
+            />
+            <WebsiteCard
+              title="Lana Coin Eternity Relay"
+              link="https://www.lanacoin-eternity.com/"
+              description="Vse informacije se decentrazlirano shranjjejo s pomočjo NOSTR protokola na t.i. Relayih."
+              imageSrc={lanaEternityRelay}
+              imageAlt="NOSTR Relay Watch interface for Lana Coin Eternity"
+            />
+            <WebsiteCard
+              title="Lana Heart Voice Relay"
+              link="https://lanaheartvoice.com/"
+              description="Vse informacije se decentrazlirano shranjjejo s pomočjo NOSTR protokola na Relayih."
+              imageSrc={lanaHeartVoice}
+              imageAlt="The HeartVoice - Lana NOSTR relay monitor"
+            />
+            <WebsiteCard
+              title="Lana Loves UK"
+              link="https://www.lanalovesuk.com/"
+              description="Neke oblika bolha v UKju kjer je mogoče kupovati z Lano"
+              imageSrc={lanaLovesUk}
+              imageAlt="LanaLovesUK Community Marketplace"
+            />
+            <WebsiteCard
+              title="Jaz sem ta oseba"
+              link="https://iamthisperson.org/"
+              description="Tukaj lahko ustvariš in posodobiš svoj profil ter izpelješ KYC."
+              imageSrc={iAmThisPerson}
+              imageAlt="I am This Person - Profile management and KYC platform"
             />
           </div>
 
