@@ -12,6 +12,14 @@ const JoinMovement = () => {
           className="w-full h-full object-cover object-top"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background/20"></div>
+        
+        {/* Globoka Agenda Badge */}
+        <button 
+          onClick={() => document.getElementById('globoka-agenda')?.scrollIntoView({ behavior: 'smooth' })}
+          className="absolute bottom-4 right-4 bg-primary/90 hover:bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm border border-white/20 transition-all duration-200 hover:scale-105 shadow-lg"
+        >
+          🌙 Globoka Agenda
+        </button>
       </header>
 
       {/* Content */}
@@ -85,6 +93,25 @@ const JoinMovement = () => {
               Zdaj pa dovolj klobasanja. Hop na vlak – al pa bejž stran, haha. 🚂
             </p>
           </div>
+
+          {/* Globoka Agenda Section */}
+          <section id="globoka-agenda" className="mt-16 pt-12 border-t border-border">
+            <div className="text-center">
+              <h2 className="text-3xl font-bold text-foreground mb-8">🌙 Globoka Agenda 🌙</h2>
+              <div className="prose prose-lg max-w-none">
+                <p className="text-lg text-foreground leading-relaxed mb-6">
+                  Seveda se bo našla kaka pametna buča, ki bo v tem mesecu na čelu iskala teorije zarote in skrite agende, haha.
+                </p>
+                <p className="text-lg text-foreground leading-relaxed mb-6">
+                  Ampak hej… dej si jo raje dobr v roke, poglej jo globoko v oči in pusti, da ti misli malo spolzijo dol med noge, namesto da ti tiščijo v glavi. 😏💦
+                </p>
+                <p className="text-lg text-foreground leading-relaxed">
+                  Naj te luna rajca, naj ti malo zmeša um in ti da tisti orgazmični "klik", ko se vse preplete in razplete hkrati.
+                  Ker včasih je edina prava agenda — da se maš fajn. 🔥✨
+                </p>
+              </div>
+            </div>
+          </section>
         </div>
       </main>
     </div>
