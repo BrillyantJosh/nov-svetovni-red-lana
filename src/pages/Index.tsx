@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ExpandableSection } from "@/components/ExpandableSection";
+import { WebsiteCard } from "@/components/WebsiteCard";
 import { 
   Heart, 
   Users, 
@@ -19,6 +20,10 @@ import {
   Sparkles
 } from "lucide-react";
 import heroMovement from "@/assets/hero-movement.jpg";
+import walletGenerator from "@/assets/wallet-generator.png";
+import lanaRegister from "@/assets/lana-register.png";
+import safeLana from "@/assets/safe-lana.png";
+import milestones from "@/assets/milestones.png";
 
 const Index = () => {
   return (
@@ -459,36 +464,72 @@ Gospodarstvo mora biti orodje človeškega blagostanja."
 
       {/* Call to Action */}
       <section className="py-20 px-4 bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-heading text-4xl font-bold mb-6 text-gradient">
-            Živi spremembo
-          </h2>
-          <div className="flex items-center justify-center gap-6 mb-8 max-w-3xl mx-auto">
-            <img 
-              src="/src/assets/einstein-new.jpg" 
-              alt="Albert Einstein" 
-              className="w-20 h-20 rounded-full object-cover border-2 border-primary/20"
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="font-heading text-4xl font-bold mb-6 text-gradient">
+              Živi spremembo
+            </h2>
+            <div className="flex items-center justify-center gap-6 mb-8 max-w-3xl mx-auto">
+              <img 
+                src="/src/assets/einstein-new.jpg" 
+                alt="Albert Einstein" 
+                className="w-20 h-20 rounded-full object-cover border-2 border-primary/20"
+              />
+              <blockquote className="text-xl text-muted-foreground italic">
+                "Če ideja na začetku ni absurdna, potem zanjo ni upanja."
+                <footer className="text-sm text-primary mt-2 not-italic">— Albert Einstein</footer>
+              </blockquote>
+            </div>
+          </div>
+
+          {/* Website Cards Grid */}
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4 mb-12">
+            <WebsiteCard
+              title="Ustvari Denarnico"
+              link="https://www.offlinelana.org"
+              description="Na tej povezavi lahko varno ustvariš brezplačno Lanin ključ in denarnico na blockchainu."
+              imageSrc={walletGenerator}
+              imageAlt="Lana Paper Wallet Generator"
             />
-            <blockquote className="text-xl text-muted-foreground italic">
-              "Če ideja na začetku ni absurdna, potem zanjo ni upanja."
-              <footer className="text-sm text-primary mt-2 not-italic">— Albert Einstein</footer>
-            </blockquote>
+            <WebsiteCard
+              title="Registrar"
+              link="https://www.lanaregister.org"
+              description="Registrar spremlja BlockChain in beleži vsako registrirano transakcijo Lane."
+              imageSrc={lanaRegister}
+              imageAlt="Lana Register"
+            />
+            <WebsiteCard
+              title="Mobilno plačevanje z LanaCoini"
+              link="https://www.safeLana.com"
+              description="Na tej strani lahko varno offline podpisujete Lana Transakcije."
+              imageSrc={safeLana}
+              imageAlt="Safe Lana"
+            />
+            <WebsiteCard
+              title="Pot do 100 milijonov"
+              link="https://letsmakeanyonerich.com"
+              description="Na tej strani si lahko pogledaš kako se cena Lane deli in kje smo."
+              imageSrc={milestones}
+              imageAlt="LanaCoin Split Milestones"
+            />
           </div>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button className="gradient-button text-lg px-8 py-4">
-              <Heart className="mr-2 h-5 w-5" />
-              Pridruži se gibanju
-            </Button>
-            <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-4">
-              <Sparkles className="mr-2 h-5 w-5" />
-              Sodeluj pri projektih
-            </Button>
+
+          <div className="text-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+              <Button className="gradient-button text-lg px-8 py-4">
+                <Heart className="mr-2 h-5 w-5" />
+                Pridruži se gibanju
+              </Button>
+              <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-4">
+                <Sparkles className="mr-2 h-5 w-5" />
+                Sodeluj pri projektih
+              </Button>
+            </div>
+            
+            <p className="text-sm text-muted-foreground">
+              M'ejmo se fajn - skupaj gradimo svet, v katerem bi radi živeli! ✨
+            </p>
           </div>
-          
-          <p className="text-sm text-muted-foreground mt-8">
-            M'ejmo se fajn - skupaj gradimo svet, v katerem bi radi živeli! ✨
-          </p>
         </div>
       </section>
     </div>
