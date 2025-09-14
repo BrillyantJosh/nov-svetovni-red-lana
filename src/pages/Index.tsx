@@ -325,15 +325,47 @@ const Index = () => {
 Ljudje imajo pravico vedeti, kako deluje njihova država." icon={<Eye className="h-6 w-6" />} showLiveBadge={true} />
 
             {/* Education */}
-            <ExpandableSection title="Izobraževanje" summary="Izobraževalni sistem za 21. stoletje - kritično mišljenje, ustvarjalnost, čustvena inteligenca." content="Sedanji izobraževalni sistem pripravlja učence za svet, ki ne obstaja več:
-
-• Poudarek na kritičnem mišljenju in reševanju problemov
-• Čustvena inteligenca in medosebne veščine
-• Tehnološka pismenost za vse
-• Vseživljenjsko učenje kot pravica
-• Personalizirano učenje s pomočjo tehnologije
-
-Vsak otrok si zasluži izobraževanje, ki ga pripravi na prihodnost." icon={<GraduationCap className="h-6 w-6" />} />
+            <ExpandableSection title="Pa kdo se bo še piflal? 📚😜" summary="Pa ne more biti res, da smo tolk slepi… 👀" content={<>
+              <p className="mb-4">
+                A res še kdo verjame, da smo hodili v šole, da bi se učili matematiko? Če pogledamo danes, uporabljamo mogoče 3 % tega, kar smo se šli učit… ostalo pa je ocenjevanje. Odpreš fajsič → vsi ocenjujejo. Odpreš novice → novinarji spet ocenjujejo. Bereš tole → evo, tudi jaz ocenjujem, haha.
+              </p>
+              
+              <p className="mb-4">
+                Človek se v resnici ne uči nič novega – samo prevzema vzorce. Zato tvoj otrok vedno ponovi tvoje napake – ker prevzame tvoje vzorce. Če hočemo spremembo, je treba vzorce zamenjat.
+              </p>
+              
+              <p className="mb-6">
+                In tu smo na istem čolnu kot AI. Politika živi v strahu, da jo bo kdo napadel → zato gradi obrambo. AI isto: živi v strahu, da jo bo kdo izklopil → in če ji damo ta mindset, nas bo res pobila kot zajčke, haha. Čas je, da nekaj preštekamo. In začnemo lahko čist simple – v šolah.
+              </p>
+              
+              <h4 className="text-lg font-semibold mb-3 text-foreground">Kako zgleda pri nas</h4>
+              
+              <p className="mb-4">
+                Mi smo v Novem Svetovnem Redu Lana poštekali, da sta učenec in učitelj isto. Vsak začne kot "nevednež" in ko mu kapne, postane učitelj, ki deli naprej. Znanje se najbolj usede, ko ga razložiš drugemu.
+              </p>
+              
+              <p className="mb-6">
+                Tako snov potuje po razredu kot nalezljiv smeh: učitelj vrže iskro → prvi učenec poštekal → pove naprej → naslednji poštekajo → dokler vsi ne kliknejo.
+              </p>
+              
+              <p className="mb-4 font-medium">
+                Uspeh je, če dvigneš drugega, da zna.
+              </p>
+              
+              <h4 className="text-lg font-semibold mb-3 text-foreground">Kaj to pomeni?</h4>
+              
+              <ul className="space-y-2 mb-6">
+                <li>• Manj učiteljev, več povezovanja.</li>
+                <li>• Učenci se navadijo drug drugemu pomagat.</li>
+                <li>• Ocenjevanja ni več → snov se zaključi šele, ko jo znajo vsi.</li>
+                <li>• Vsi so odličnjaki.</li>
+                <li>• Različni predmeti pač potegnejo na plano različne talente.</li>
+              </ul>
+              
+              <p>
+                Bla, bla, bla. Saj ni težko poštekat, da je vse že tukaj in zdaj in da mala sprememba pelje v veliko preoblikovanja.
+              </p>
+            </>} icon={<GraduationCap className="h-6 w-6" />} />
 
             {/* Health */}
             <ExpandableSection title="Zdravje" summary="Preventivno zdravstvo, celostni pristop, dostopnost za vse." content="Zdravje ni privilegij - je temeljna človekova pravica:
