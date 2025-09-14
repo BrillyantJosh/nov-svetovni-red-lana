@@ -313,16 +313,24 @@ const Index = () => {
                 </div>
               </>} icon={<Bot className="h-6 w-6" />} />
 
-            {/* Transparency */}
-            <ExpandableSection title="Transparentnost" summary="Popolna odprtost vladanja, odločanja in porabe javnega denarja." content="Demokracija brez transparentnosti ni demokracija:
-
-• Vsi vladni dokumenti javno dostopni
-• Odprto kodna programska oprema v javni upravi
-• Transparentno financiranje političnih strank
-• Javni nadzor nad lobiranjem
-• Blockchain sledljivost javnih sredstev
-
-Ljudje imajo pravico vedeti, kako deluje njihova država." icon={<Eye className="h-6 w-6" />} showLiveBadge={true} />
+            {/* Sexuality & Energy */}
+            <ExpandableSection title="Hlačke dol 🔥" summary="Brez orgazmične energije ni obilja." content={<>
+              <p className="mb-4">
+                Adam in Eva sta izgubila pravo znanje in si nadela figove liste. Pozabila sta na užitek, celo začela razmišljati, da je to grešno. Občutki sramu so postali vodilo življenja. Namesto da bi uživala, sta vklopila razum, začela sta razvijati umske sposobnosti in se dokazovati. Rešitve so postajale vse bolj doterane, življenje pa vse težje. Vprašanj je bilo vedno več, odgovorov vedno manj. Rezultat? Notranja vojna, ki sta jo prenesla navzven – in zdaj se še tu skregala. Bla, bla, bla… in evo, imamo hecno postavitev: vsi rešujemo svet tako, da si pošiljamo bombe. Kakšna umska zabloda, haha.
+              </p>
+              
+              <p className="mb-4">
+                Um in orgazmična energija sta nasprotji, ki pa skupaj ustvarjata lahkotno celoto. Brez orgazmične energije se um zaplete sam vase do točke, ko začne sam sebe uničevati.
+              </p>
+              
+              <p className="mb-4">
+                Zato je rešitev v resnici precej preprosta: hlačke dol, pa gremo seksat. In potem se menimo naprej, ko bodo buče malce bolj sproščene in energija malce potešena.
+              </p>
+              
+              <p className="font-medium">
+                Manj kolpljite bo umu in več seksajte
+              </p>
+            </>} icon={<Heart className="h-6 w-6" />} showLiveBadge={true} />
 
             {/* Education */}
             <ExpandableSection title="Pa kdo se bo še piflal? 📚😜" summary="Pa ne more biti res, da smo tolk slepi… 👀" content={<>
@@ -390,15 +398,19 @@ Zdrava družba je produktivna in srečna družba." icon={<Stethoscope className=
 Svet brez meja je svet brez konfliktov." icon={<Plane className="h-6 w-6" />} />
 
             {/* Nature */}
-            <ExpandableSection title="Narava" summary="Pravice narave, ekološka obnova, harmonija z okoljem." content="Narava ni vir za izkoriščanje - je naš dom:
-
-• Pravice narave zapisane v ustavo
-• Masivna obnova ekosistemov
-• Prehod na 100% obnovljive vire energije
-• Prepoved škodljivih kemikalij in praks
-• Biomimikrijska tehologija
-
-Brez zdrave narave ni zdrave družbe." icon={<TreePine className="h-6 w-6" />} />
+            <ExpandableSection title="Mati Narava" summary="Mati Narava nas bo prijela za ušesa! 🌱👂" content={<>
+              <p className="mb-4">
+                Lahko razpravljamo, kdo ima prav, kaj so "prave spremembe" in kaj ne. Ampak dejstvo je eno: planet je usran in zasran bolj kot kadarkoli prej. A je že dovolj usran, da nam ni več pomoči? Sam Bog ve.
+              </p>
+              
+              <p className="mb-4">
+                Ampak nekaj je kristalno jasno: Ko prideš danes domov, vprašaj svojega otroka, ki ga imaš kao najraje: 👉 <strong>"Kakšen planet si želiš, da ti zapustim?"</strong>
+              </p>
+              
+              <p>
+                In če ga res imaš rad, a ni logično, da se boš ti danes preoblikoval, da mu namesto hiše raje zapustiš lep Planet, ker on ne bo zares živel v tvoji hiši ampak na tej Zemlji!?
+              </p>
+            </>} icon={<TreePine className="h-6 w-6" />} />
 
             {/* Business */}
             <ExpandableSection title="Poslovanje" summary="Podjetja kot služabniki družbe, ne gospodje. Nova korporacijska odgovornost." content="Podjetja morajo služiti družbi, ne obratno:
