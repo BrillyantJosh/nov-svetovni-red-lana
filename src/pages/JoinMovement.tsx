@@ -1,7 +1,10 @@
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, ArrowLeft } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import lanaHero from "@/assets/lana-hero.png";
 
 const JoinMovement = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Header with Image */}
@@ -12,6 +15,15 @@ const JoinMovement = () => {
           className="w-full h-full object-cover object-top"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background/20"></div>
+        
+        {/* Back Button */}
+        <button 
+          onClick={() => navigate('/')}
+          className="absolute top-4 left-4 bg-background/90 hover:bg-background text-foreground px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm border border-border transition-all duration-200 hover:scale-105 shadow-lg inline-flex items-center gap-2"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          Nazaj
+        </button>
         
         {/* Globoka Agenda Badge */}
         <button 
