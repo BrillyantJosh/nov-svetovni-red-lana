@@ -1,35 +1,24 @@
 import { ExternalLink, ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import lanaHero from "@/assets/lana-hero.png";
-
 const JoinMovement = () => {
   const navigate = useNavigate();
-
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Hero Header with Image */}
       <header className="relative w-full aspect-video overflow-hidden">
-        <img 
-          src={lanaHero} 
-          alt="Lana"
-          className="w-full h-full object-cover object-top"
-        />
+        <img src={lanaHero} alt="Lana" className="w-full h-full object-cover object-top" />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background/20"></div>
         
         {/* Back Button */}
-        <button 
-          onClick={() => navigate('/')}
-          className="absolute top-4 left-4 bg-background/90 hover:bg-background text-foreground px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm border border-border transition-all duration-200 hover:scale-105 shadow-lg inline-flex items-center gap-2"
-        >
+        <button onClick={() => navigate('/')} className="absolute top-4 left-4 bg-background/90 hover:bg-background text-foreground px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm border border-border transition-all duration-200 hover:scale-105 shadow-lg inline-flex items-center gap-2">
           <ArrowLeft className="h-4 w-4" />
           Nazaj
         </button>
         
         {/* Globoka Agenda Badge */}
-        <button 
-          onClick={() => document.getElementById('globoka-agenda')?.scrollIntoView({ behavior: 'smooth' })}
-          className="absolute bottom-4 right-4 bg-primary/90 hover:bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm border border-white/20 transition-all duration-200 hover:scale-105 shadow-lg"
-        >
+        <button onClick={() => document.getElementById('globoka-agenda')?.scrollIntoView({
+        behavior: 'smooth'
+      })} className="absolute bottom-4 right-4 bg-primary/90 hover:bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm border border-white/20 transition-all duration-200 hover:scale-105 shadow-lg">
           🌙 Globoka Agenda
         </button>
       </header>
@@ -76,23 +65,13 @@ const JoinMovement = () => {
             <h2 className="text-2xl font-semibold mb-6 text-foreground">Če si še vedno za, potem:</h2>
             <ol className="list-decimal list-inside space-y-4 mb-8">
               <li className="text-foreground leading-relaxed">
-                <a 
-                  href="https://www.createLanaWallet.org" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-primary hover:underline inline-flex items-center gap-1"
-                >
+                <a href="https://www.createLanaWallet.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline inline-flex items-center gap-1">
                   Ustvari denarnico in jo registriraj
                   <ExternalLink className="h-4 w-4" />
                 </a>
               </li>
               <li className="text-foreground leading-relaxed">
-                <a 
-                  href="https://app.mejmosefajn.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-primary hover:underline inline-flex items-center gap-1"
-                >
+                <a href="https://app.mejmosefajn.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline inline-flex items-center gap-1">
                   Prijavi se v socialno omrežje*
                   <ExternalLink className="h-4 w-4" />
                 </a>
@@ -114,9 +93,7 @@ const JoinMovement = () => {
                 <p className="text-lg text-foreground leading-relaxed mb-6">
                   Seveda se bo našla kaka pametna buča, ki bo v tem mesecu na čelu iskala teorije zarote in skrite agende, haha.
                 </p>
-                <p className="text-lg text-foreground leading-relaxed mb-6">
-                  Ampak hej… dej si jo raje dobr v roke, poglej jo globoko v oči in pusti, da ti misli malo spolzijo dol med noge, namesto da ti tiščijo v glavi. 😏💦
-                </p>
+                <p className="text-lg text-foreground leading-relaxed mb-6">Ampak hej… dej si jo/ga raje dobr v roke, poglej jo globoko v oči in pusti, da ti misli malo spolzijo dol med noge, namesto da ti tiščijo v glavi. 😏💦</p>
                 <p className="text-lg text-foreground leading-relaxed">
                   Naj te luna rajca, naj ti malo zmeša um in ti da tisti orgazmični "klik", ko se vse preplete in razplete hkrati.
                   Ker včasih je edina prava agenda — da se maš fajn. 🔥✨
@@ -126,8 +103,6 @@ const JoinMovement = () => {
           </section>
         </div>
       </main>
-    </div>
-  );
+    </div>;
 };
-
 export default JoinMovement;
