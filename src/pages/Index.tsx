@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ExpandableSection } from "@/components/ExpandableSection";
 import { WebsiteCard } from "@/components/WebsiteCard";
-import { Heart, Users, Rocket, Brain, Scale, Database, Bot, Eye, GraduationCap, Stethoscope, Plane, TreePine, Building, DollarSign, ChevronRight, Sparkles } from "lucide-react";
+import { Heart, Users, Rocket, Brain, Scale, Database, Bot, Eye, GraduationCap, Stethoscope, Plane, TreePine, Building, DollarSign, ChevronRight, Sparkles, Swords } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroMovement from "@/assets/hero-movement.jpg";
 import walletGenerator from "@/assets/wallet-generator.png";
@@ -412,16 +412,24 @@ Svet brez meja je svet brez konfliktov." icon={<Plane className="h-6 w-6" />} />
               </p>
             </>} icon={<TreePine className="h-6 w-6" />} />
 
-            {/* Business */}
-            <ExpandableSection title="Poslovanje" summary="Podjetja kot služabniki družbe, ne gospodje. Nova korporacijska odgovornost." content="Podjetja morajo služiti družbi, ne obratno:
-
-• Delavska participacija v lastništvu podjetij
-• B-Corp status kot standard za velika podjetja
-• Družbena korist kot merilo uspešnosti
-• Omejitve plač vodilnih glede na najnižje plače
-• Podpora socialnim podjetjem in zadružništvu
-
-Gospodarstvo mora biti orodje človeškega blagostanja." icon={<Building className="h-6 w-6" />} showLiveBadge={true} />
+            {/* Fighting Spirit */}
+            <ExpandableSection title="Gremo se tepst?" summary="Ja nimamo kej, rad se tepemo :)" content={<>
+              <p className="mb-4">
+                Kako mamo danes? Na tem planetu imamo vsi nekakšna obrambna ministrstva: "Jaz nisem problem — jaz nikomur nič slabega nočem." In potem frčijo drončki čez vse kotičke, haha.
+              </p>
+              
+              <p className="mb-4">
+                Počasi se bo treba zavedat: voditelji, ki niso razrešili vojne v sebi, jo prej ali slej projicirajo navzven. To velja predvsem za tiste, ki stalno "branijo" svoj teritorij. Ko živiš v strahu, da ti bo nekdo naredil nekaj hudega, se preventivno zaščitiš — in takoj označiš nekoga kot potencialnega sovražnika. Ta oseba to zazna kot grožnjo, odgovori in potem spet ti — ping-pong, vojna je tu. Vsi se samo branimo … in na koncu drug drugega napadamo.
+              </p>
+              
+              <p className="mb-4">
+                V Novem Svetovnem Redu Lana imamo drugačen pristop: vojskujemo se z odprtim srcem. Verjamemo, da razrešena notranja vojna vodi v preobrazbo zavesti v nekaj več. To ni za bleferje, šleve in tiste, ki se radi zadržujejo v zameri — to je za pokončne, močne ljudi, ki so pripravljeni prevzeti odgovornost in rasti.
+              </p>
+              
+              <p>
+                Seveda — če pa kdo kljub vsemu verjame, da obstajajo realne grožnje, ima možnost predlagat "vojskovanje". Če za ta predlog zbere 100 % podporo vseh upravičencev (good luck), potem pa — no, potem se lahko gremo sabljat vsi (metaforično ali pa kam pač že, če res hočete). 😉
+              </p>
+            </>} icon={<Swords className="h-6 w-6" />} showLiveBadge={true} />
           </div>
         </div>
       </section>
