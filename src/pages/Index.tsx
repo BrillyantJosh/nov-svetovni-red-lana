@@ -12,6 +12,7 @@ import lanaEternityRelay from "@/assets/lana-eternity-relay.png";
 import lanaHeartVoice from "@/assets/lana-heart-voice.png";
 import lanaLovesUk from "@/assets/lana-loves-uk.png";
 import iAmThisPerson from "@/assets/i-am-this-person.png";
+import einsteinImage from "@/assets/einstein-new.jpg";
 const Index = () => {
   return <div className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -458,7 +459,7 @@ const Index = () => {
               Živi spremembo
             </h2>
             <div className="flex items-center justify-center gap-6 mb-8 max-w-3xl mx-auto">
-              <img src="/src/assets/einstein-new.jpg" alt="Albert Einstein" className="w-20 h-20 rounded-full object-cover border-2 border-primary/20" />
+              <img src={einsteinImage} alt="Albert Einstein" className="w-20 h-20 rounded-full object-cover border-2 border-primary/20" />
               <blockquote className="text-xl text-muted-foreground italic">
                 "Če ideja na začetku ni absurdna, potem zanjo ni upanja."
                 <footer className="text-sm text-primary mt-2 not-italic">— Albert Einstein</footer>
