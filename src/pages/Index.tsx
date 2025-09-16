@@ -376,15 +376,19 @@ const Index = () => {
             </>} icon={<GraduationCap className="h-6 w-6" />} />
 
             {/* Health */}
-            <ExpandableSection title="Zdravje" summary="Preventivno zdravstvo, celostni pristop, dostopnost za vse." content="Zdravje ni privilegij - je temeljna človekova pravica:
-
-• Popolnoma brezplačno zdravstvo za vse
-• Poudarek na preventivi in zdravem življenjskem slogu
-• Integracija tradicionalne in alternativne medicine
-• Mentalno zdravje kot prioriteta
-• Raziskave v javnem interesu, ne profita
-
-Zdrava družba je produktivna in srečna družba." icon={<Stethoscope className="h-6 w-6" />} />
+            <ExpandableSection title="Kaj pa zdravje? 🩺✨" summary="A tebe tud kaj buba?" content={<>
+              <p className="mb-4">
+                Zdi se, kot da ves svet rabi zdravnika — zdravje se vedno začne v nas. Če se počutiš bolanega, boš prej ali slej bolan. Če zanikaš možnost, da se tebi lahko nekaj zgodi, se ti pogosto tudi bo — in če si obsedeno zaskrbljen glede svojega zdravja (vsak grižljaj natančno preučiš ne ješ hrano ampak skrbi. Vse je odvisno od energije, iz katere deluješ.
+              </p>
+              
+              <p className="mb-4">
+                V Novem Svetovnem Redu Lana že razvijamo nekaj, kar najbolj spominja na kvantne naprave — samo da to niso računalniki v klasičnem pomenu. Gre za naprave, ki ne računajo, ampak zaznavajo in usmerjajo občutke zdrave osebe ter jih lahko prenesejo na druge (beri: zavibirajo na enaki frekvenci). Tako človek v sebi začuti, da je vse OK — in potem se zgodi tisti čudež: človek, ki je bil že odpisan, nenadoma zacveti in telo začne samega sebe zdravit.
+              </p>
+              
+              <p>
+                Ni pa je magija ;)
+              </p>
+            </>} icon={<Stethoscope className="h-6 w-6" />} />
 
             {/* Alternative Transportation */}
             <ExpandableSection title="Kaj če bi frčali drugače? 🛸" summary="Pa komu se ljubi gužvat v poletnih kolonah? 😅" content={<>
