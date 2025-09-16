@@ -386,16 +386,28 @@ const Index = () => {
 
 Zdrava družba je produktivna in srečna družba." icon={<Stethoscope className="h-6 w-6" />} />
 
-            {/* Travel */}
-            <ExpandableSection title="Potovanja" summary="Pravica do mobilnosti, trajnostni transport, odprtje meja." content="Gibanje ljudi bogati kulture in spodbuja razumevanje:
-
-• Pravica do svobodnega gibanja kot temeljna pravica
-• Trajnostni javni transport brezplačen za vse
-• Zmanjšanje ovir za mednarodno potovanje
-• Podpora izmenjavam in sodelovanju
-• Zelena infrastruktura za transport
-
-Svet brez meja je svet brez konfliktov." icon={<Plane className="h-6 w-6" />} />
+            {/* Alternative Transportation */}
+            <ExpandableSection title="Kaj če bi frčali drugače? 🛸" summary="Pa komu se ljubi gužvat v poletnih kolonah? 😅" content={<>
+              <p className="mb-4">
+                Danes potujemo iz točke A v točko B, ker naš omejeni um vidi samo korake med njima. S takim razmišljanjem pa ne bomo nikoli prišli niti do drugega osončja, kaj šele v drugo realnost. Vesoljčki bodo morda prišli k nam — mi pa do njih težko, če bomo vztrajali na starem načinu.
+              </p>
+              
+              <p className="mb-4">
+                <strong>Einstein je že lepo povedal: čas je relativen.</strong>
+              </p>
+              
+              <p className="mb-4">
+                In če je čas relativen, potem je tudi prostor. V resnici je vse iluzija — edino izkušnja te iluzije se zdi resnična. Prostor obstaja v zavesti, in to je vse. Vse je tukaj in zdaj. Vsi prostori tega vesolja so lahko tudi tukaj in zdaj, samo da imajo različno frekvenco.
+              </p>
+              
+              <p className="mb-4">
+                Ko se bomo naučili izmeriti frekvenco točke A in frekvenco točke B — in nato predmetu (recimo avtu) nastaviti drugo frekvenco — bo ta preprosto nehal obstajati tu in se pojavil tam. Evo, problem logistike je rešen! 😎
+              </p>
+              
+              <p>
+                Takrat bodo na cestah ostali samo še ljubitelji vožnje, ki bodo uživali v svojih avtomobilčkih. Mi ostali pa… brez gužve. Haha!
+              </p>
+            </>} icon={<Rocket className="h-6 w-6" />} />
 
             {/* Nature */}
             <ExpandableSection title="Mati Narava" summary="Mati Narava nas bo prijela za ušesa! 🌱👂" content={<>
