@@ -94,10 +94,7 @@ const JoinMovement = () => {
                   Seveda se bo našla kaka pametna buča, ki bo v tem mesecu na čelu iskala teorije zarote in skrite agende, haha.
                 </p>
                 <p className="text-lg text-foreground leading-relaxed mb-6">Ampak hej… dej si jo/ga raje dobr v roke, poglej jo globoko v oči in pusti, da ti misli malo spolzijo dol med noge, namesto da ti tiščijo v glavi. 😏💦</p>
-                <p className="text-lg text-foreground leading-relaxed">
-                  Naj te luna rajca, naj ti malo zmeša um in ti da tisti orgazmični "klik", ko se vse preplete in razplete hkrati.
-                  Ker včasih je edina prava agenda — da se maš fajn. 🔥✨
-                </p>
+                <p className="text-lg text-foreground leading-relaxed">Naj te luna rajca, naj ti malo zmeša um in ti da se zgodi orgazem, ko se vse preplete in razplete hkrati. Ker včasih je edina prava agenda — da se maš fajn. 🔥✨</p>
               </div>
             </div>
           </section>
