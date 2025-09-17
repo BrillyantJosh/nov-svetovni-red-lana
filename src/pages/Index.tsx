@@ -13,6 +13,9 @@ import lanaHeartVoice from "@/assets/lana-heart-voice.png";
 import lanaLovesUk from "@/assets/lana-loves-uk.png";
 import iAmThisPerson from "@/assets/i-am-this-person.png";
 import einsteinImage from "@/assets/einstein-new.jpg";
+import lana8Wonder from "@/assets/lana8wonder.png";
+import lanaAligns from "@/assets/lana-aligns.png";
+import milion100 from "@/assets/100milion.png";
 const Index = () => {
   return <div className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -502,6 +505,46 @@ const Index = () => {
             <p className="text-sm text-muted-foreground">
               M'ejmo se fajn - skupaj gradimo svet, v katerem bi radi živeli! ✨
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Projekti Section */}
+      <section className="py-20 px-4 bg-muted/20">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text text-transparent">
+              Naši Projekti
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Odkrijte revolucionarne platforme, ki spreminjajo svet
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <WebsiteCard
+              title="Lana8Wonder"
+              link="https://www.Lana8wonder.com"
+              description="Za tiste, ki bi malo preje radi mel milijončke"
+              imageSrc={lana8Wonder}
+              imageAlt="Lana8Wonder platform"
+            />
+            
+            <WebsiteCard
+              title="LanaAligns.world"
+              link="https://www.LanaAligns.world"
+              description="To je pa naš glasovalni portalček :)"
+              imageSrc={lanaAligns}
+              imageAlt="LanaAligns voting platform"
+            />
+            
+            <WebsiteCard
+              title="100 Milijonov"
+              link="https://www.100milion.fun"
+              description="Crowd funding platforma za LANA projekte"
+              imageSrc={milion100}
+              imageAlt="100 Milijonov crowdfunding platform"
+            />
           </div>
         </div>
       </section>
