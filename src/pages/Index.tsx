@@ -12,6 +12,9 @@ import lanaEternityRelay from "@/assets/lana-eternity-relay.png";
 import lanaHeartVoice from "@/assets/lana-heart-voice.png";
 import lanaLovesUk from "@/assets/lana-loves-uk.png";
 import iAmThisPerson from "@/assets/i-am-this-person.png";
+import lanaAligns from "@/assets/lana-aligns.png";
+import lana8wonder from "@/assets/lana8wonder.png";
+import hundred_milion from "@/assets/100milion.png";
 import einsteinImage from "@/assets/einstein-new.jpg";
 const Index = () => {
   return <div className="min-h-screen bg-background">
@@ -477,6 +480,9 @@ const Index = () => {
             <WebsiteCard title="Lana Heart Voice Relay" link="https://lanaheartvoice.com/" description="Vse informacije se decentrazlirano shranjjejo s pomočjo NOSTR protokola na Relayih." imageSrc={lanaHeartVoice} imageAlt="The HeartVoice - Lana NOSTR relay monitor" />
             <WebsiteCard title="Lana Loves UK" link="https://www.lanalovesuk.com/" description="Neke oblika bolha v UKju kjer je mogoče kupovati z Lano" imageSrc={lanaLovesUk} imageAlt="LanaLovesUK Community Marketplace" />
             <WebsiteCard title="Jaz sem ta oseba" link="https://iamthisperson.org/" description="Tukaj lahko ustvariš in posodobiš svoj profil ter izpelješ KYC." imageSrc={iAmThisPerson} imageAlt="I am This Person - Profile management and KYC platform" />
+            <WebsiteCard title="Lana8Wonder" link="https://www.lana8wonder.com" description="Za tiste, ki bi malo preje radi mel milijončke" imageSrc={lana8wonder} imageAlt="Lana8Wonder platform for wealth creation" />
+            <WebsiteCard title="LanaAligns.world" link="https://www.lanaaligns.world" description="To je pa naš glasovalni portalček :)" imageSrc={lanaAligns} imageAlt="LanaAligns voting portal" />
+            <WebsiteCard title="100 Milijonov" link="https://www.100milion.fun" description="Crowd funding platforma za LANA projekte" imageSrc={hundred_milion} imageAlt="100 Million crowdfunding platform" />
           </div>
 
           <div className="text-center mb-12">
