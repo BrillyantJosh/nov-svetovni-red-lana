@@ -13,9 +13,6 @@ import lanaHeartVoice from "@/assets/lana-heart-voice.png";
 import lanaLovesUk from "@/assets/lana-loves-uk.png";
 import iAmThisPerson from "@/assets/i-am-this-person.png";
 import einsteinImage from "@/assets/einstein-new.jpg";
-import lana8Wonder from "@/assets/lana8wonder.png";
-import lanaAligns from "@/assets/lana-aligns.png";
-import milion100 from "@/assets/100milion.png";
 const Index = () => {
   return <div className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -482,42 +479,10 @@ const Index = () => {
             <WebsiteCard title="Jaz sem ta oseba" link="https://iamthisperson.org/" description="Tukaj lahko ustvariš in posodobiš svoj profil ter izpelješ KYC." imageSrc={iAmThisPerson} imageAlt="I am This Person - Profile management and KYC platform" />
           </div>
 
-          {/* Projekti Section */}
-          <div className="mt-16 mb-12">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                Naši Projekti
-              </h2>
-              <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                Vsak mesec vzklije ena nova igračka, včasih dve, morda celo tri. Vse pa rastejo v podporo temu decentraliziranemu sistemu, ki korak za korakom preoblikuje izkušnjo človeka na Zemlji. In veš kaj? Pomemben si tudi ti — da skupaj ustvarjamo, se povezujemo in se imamo res fajn.
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-              <WebsiteCard
-                title="Lana8Wonder"
-                link="https://www.Lana8wonder.com"
-                description="Za tiste, ki bi malo preje radi mel milijončke"
-                imageSrc={lana8Wonder}
-                imageAlt="Lana8Wonder platform"
-              />
-              
-              <WebsiteCard
-                title="LanaAligns.world"
-                link="https://www.LanaAligns.world"
-                description="To je pa naš glasovalni portalček :)"
-                imageSrc={lanaAligns}
-                imageAlt="LanaAligns voting platform"
-              />
-              
-              <WebsiteCard
-                title="100 Milijonov"
-                link="https://www.100milion.fun"
-                description="Crowd funding platforma za LANA projekte"
-                imageSrc={milion100}
-                imageAlt="100 Milijonov crowdfunding platform"
-              />
-            </div>
+          <div className="text-center mb-12">
+            <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+              Vsak mesec vzklije ena nova igračka, včasih dve, morda celo tri. Vse pa rastejo v podporo temu decentraliziranemu sistemu, ki korak za korakom preoblikuje izkušnjo človeka na Zemlji. In veš kaj? Pomemben si tudi ti — da skupaj ustvarjamo, se povezujemo in se imamo res fajn.
+            </p>
           </div>
 
           <div className="text-center">
