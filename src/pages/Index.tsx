@@ -28,7 +28,7 @@ const Index = () => {
         <div className="relative max-w-4xl mx-auto text-center">
           <div className="mb-8 animate-fade-in">
             <h1 className="font-heading text-5xl md:text-7xl font-bold mb-6">
-              <span className="hero-text">M'ejmo se fajn</span>
+              <span className="hero-text">'Mejmo se fajn</span>
             </h1>
             <h2 className="font-heading text-3xl md:text-4xl font-semibold text-secondary mb-4">
               Nov Svetovni Red Lana
@@ -62,7 +62,7 @@ const Index = () => {
                 Na neki način ja, ker delujemo v kolektivnem prostoru. A nismo še sigurni, ali smo stranka. Zakaj bi svojo čudovito idejo omejili zgolj na volitve? Če nas izvolijo, super, če ne, pa ne bomo sedeli v kotu in jokali. Naš cilj je preoblikovati to izkušnjo, imenovano Planet Zemlja, v nekaj več.
               </p>
               <p>
-                A vsaka resnica ima dve plati. Če jih ne sprejmemo, smo bleferji. Zato zakaj pa ne — mogoče pa gremo tudi na volitve, mogoče podpremo kerga zabavnega frajerja ali frajerko ali pač nič od tega in se bomo <strong>M'eli samo fajn</strong>, ko bodo vsi zagriženo iskali kako oblatiti nasprotnika, haha 😄. Mi smo polni čudnih zgodb tako, da lahko začnete kar pri nas ;)
+                A vsaka resnica ima dve plati. Če jih ne sprejmemo, smo bleferji. Zato zakaj pa ne — mogoče pa gremo tudi na volitve, mogoče podpremo kerga zabavnega frajerja ali frajerko ali pač nič od tega in se bomo <strong>'Meli samo fajn</strong>, ko bodo vsi zagriženo iskali kako oblatiti nasprotnika, haha 😄. Mi smo polni čudnih zgodb tako, da lahko začnete kar pri nas ;)
               </p>
             </>} icon={<Heart className="h-6 w-6" />} className="animate-fade-in" />
         </div>
@@ -506,7 +506,7 @@ const Index = () => {
             </div>
             
             <p className="text-sm text-muted-foreground">
-              M'ejmo se fajn - skupaj gradimo svet, v katerem bi radi živeli! ✨
+              'Mejmo se fajn - skupaj gradimo svet, v katerem bi radi živeli! ✨
             </p>
           </div>
         </div>
