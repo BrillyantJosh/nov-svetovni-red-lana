@@ -65,7 +65,7 @@ const JoinMovement = () => {
             <h2 className="text-2xl font-semibold mb-6 text-foreground">Če si še vedno za, potem:</h2>
             <ol className="list-decimal list-inside space-y-4 mb-8">
               <li className="text-foreground leading-relaxed">
-                <a href="https://www.createLanaWallet.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline inline-flex items-center gap-1">
+                <a href="https://100million2everyone.com/?return_url=https://mejmosefajn.org&site_name=Mejmo%20se%20fajn" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline inline-flex items-center gap-1">
                   Ustvari denarnico in jo registriraj
                   <ExternalLink className="h-4 w-4" />
                 </a>
