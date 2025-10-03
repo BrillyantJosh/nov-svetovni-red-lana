@@ -492,17 +492,13 @@ const Index = () => {
           </div>
 
           <div className="text-center">
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+            <div className="flex justify-center items-center mb-8">
               <Link to="/join-movement">
-                <Button className="gradient-button text-lg px-8 py-4">
-                  <Heart className="mr-2 h-5 w-5" />
-                  Skoč na Vlak, čuču
+                <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-4">
+                  <Sparkles className="mr-2 h-5 w-5" />
+                  Želim zaslužit fulll keša
                 </Button>
               </Link>
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-4">
-                <Sparkles className="mr-2 h-5 w-5" />
-                Želim zaslužit fulll keša
-              </Button>
             </div>
             
             <p className="text-sm text-muted-foreground">
