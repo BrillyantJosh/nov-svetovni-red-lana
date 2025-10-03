@@ -71,7 +71,7 @@ const JoinMovement = () => {
                 </a>
               </li>
               <li className="text-foreground leading-relaxed">
-                <a href="https://app.mejmosefajn.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline inline-flex items-center gap-1">
+                <a href="https://app.mejmosefajn.org" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline inline-flex items-center gap-1">
                   Prijavi se v socialno omrežje*
                   <ExternalLink className="h-4 w-4" />
                 </a>
