@@ -18,6 +18,18 @@ import hundred_milion from "@/assets/100milion.png";
 import einsteinImage from "@/assets/einstein-new.jpg";
 const Index = () => {
   return <div className="min-h-screen bg-background">
+      {/* Navigation */}
+      <nav className="fixed top-0 right-0 z-50 p-6">
+        <a 
+          href="https://app.mejmosefajn.org" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-lg font-semibold text-primary hover:text-primary/80 transition-colors px-6 py-2 border-2 border-primary rounded-lg hover:bg-primary/10"
+        >
+          LOG IN
+        </a>
+      </nav>
+
       {/* Hero Section */}
       <section className="relative py-20 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" style={{
