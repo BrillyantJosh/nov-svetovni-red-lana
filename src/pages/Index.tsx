@@ -55,7 +55,7 @@ const Index = () => {
           <div className="animate-slide-up delay-300">
             <Link to="/join-movement">
               <Button className="gradient-button text-lg px-8 py-4 animate-bounce-gentle">
-                Skoč na Vlak, čuču
+                Skoči na Vlak, čuču
                 <ChevronRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
