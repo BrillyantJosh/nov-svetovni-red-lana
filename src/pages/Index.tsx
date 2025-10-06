@@ -71,10 +71,10 @@ const Index = () => {
             </>} content={<>
               <h4 className="font-semibold text-lg mb-3">Smo politično gibanje?</h4>
               <p className="mb-4">
-                Na neki način ja, ker delujemo v kolektivnem prostoru. A nismo še sigurni, ali smo stranka. Zakaj bi svojo čudovito idejo omejili zgolj na volitve? Če nas izvolijo, super, če ne, pa ne bomo sedeli v kotu in jokali. Naš cilj je preoblikovati to izkušnjo, imenovano Planet Zemlja, v nekaj več.
+                Na nek način ja, ker delujemo v kolektivnem prostoru. A nismo še sigurni, ali smo stranka. Zakaj bi svojo čudovito idejo omejili zgolj na volitve? Če nas izvolijo, super, če ne, pa ne bomo sedeli v kotu in jokali. Naš cilj je preoblikovati to izkušnjo, imenovano Planet Zemlja, v nekaj več.
               </p>
               <p>
-                A vsaka resnica ima dve plati. Če jih ne sprejmemo, smo bleferji. Zato zakaj pa ne — mogoče pa gremo tudi na volitve, mogoče podpremo kerga zabavnega frajerja ali frajerko ali pač nič od tega in se bomo <strong>'Meli samo fajn</strong>, ko bodo vsi zagriženo iskali kako oblatiti nasprotnika, haha 😄. Mi smo polni čudnih zgodb tako, da lahko začnete kar pri nas ;)
+                A vsaka resnica ima dve plati. Če ju ne sprejmemo, smo bleferji. Zato - zakaj pa ne - mogoče pa gremo tudi na volitve, mogoče podpremo k'erga zabavnega frajerja ali frajerko, ali pač nič od tega in se bomo <strong>'meli samo fajn</strong>, ko bodo vsi zagriženo iskali, kako oblatiti nasprotnika, haha 😄. Mi smo polni čudnih zgodb, tako da lahko začnete kar pri nas ;)
               </p>
             </>} icon={<Heart className="h-6 w-6" />} className="animate-fade-in" />
         </div>
