@@ -215,20 +215,20 @@ const Index = () => {
               </>} icon={<Brain className="h-6 w-6" />} showLiveBadge={true} />
 
             {/* New Legal Order */}
-            <ExpandableSection title="Nič se naumo več tožaril ⚖️" summary="Danes iz sodišča hodimo skregani. Jutri bomo iz njega hodili kot prijatelji." content={<>
+            <ExpandableSection title="Nič se ne bomo več tožarili ⚖️" summary="Danes iz sodišča hodimo skregani. Jutri bomo iz njega hodili kot prijatelji." content={<>
                 <p className="mb-4">
-                  Tipična zgodba gre takole: <em>"Jaz nisem kriv, sosedov Janez je pujs in zato ga bom tožil, ker me je okoli prinesel."</em> In tako drug za drugega mislimo, da smo prašiči. Na koncu pridemo do tega, da je v očeh nekoga vsak od nas "pujs".
+                  Tipična zgodba gre takole: <em>"Jaz nisem kriv, sosedov Janez je pujs in zato ga bom tožil, ker me je okrog prinesel."</em> In tako drug za drugega mislimo, da smo prašiči. Na koncu pridemo do tega, da je v očeh nekoga vsak od nas "pujs".
                 </p>
                 
                 <p className="mb-4">
-                  Če smo iskreni, razlike med nami in prepirljivimi otroki ni veliko. Ko se dva otroka skregata, smo mi pametni: rečemo jima, naj vsak prevzame svoj del odgovornosti, se opravičita drug drugemu in pobotata. Ampak ko odrastemo, gremo raje na sodišče in tožimo "prasce". Vsi smo pozabili na <strong>samoodgovornost in opravičilo</strong>.
+                  Če smo iskreni, ni razlike med nami in prepirljivimi otroci. Ko se dva otroka skregata, smo pametni: rečemo jima, naj vsak prevzame svoj del odgovornosti, se opravičita drug drugemu in pobotata. Ampak ko odrastemo, gremo raje na sodišče in tožimo "prasce". Vsi smo pozabili na <strong>samoodgovornost in opravičilo</strong>.
                 </p>
                 
                 <h4 className="font-semibold text-lg mb-3">Nov pravni red</h4>
                 <p className="mb-4">
                   V Novem Svetovnem Redu Lana ne poznamo nepotrebnih zakonov in kompliciranja.
                   <br />
-                  Če pride do spora, preprosto poveš, kaj te muči. Vsak sprejme svoj del odgovornosti. Opravičita se, počakata dan, čustva se pomirijo — in problema ni več. Sodnik je samo opomnik, ne lovi krivcev in ne zbira dokazov.
+                  Če pride do spora, preprosto poveš, kaj te muči. Vsak sprejme svoj del odgovornosti. Opravičita se, počakata kak dan, da se čustv pomirijo — in problema ni več. Sodnik je samo opomnik, ne lovi krivcev in ne zbira dokazov.
                 </p>
                 
                 <p className="mb-4">
@@ -252,7 +252,7 @@ const Index = () => {
             {/* Data Ownership */}
             <ExpandableSection title="Moji podatki so samo moji 🔐" summary="Tvoji podatki so tvoje premoženje. In z njimi kupčkaš samo ti." content={<>
                 <p className="mb-4">
-                  Danes pa je tako: objavljaš na nekem družabnem omrežju, gradiš povezave, ustvarjaš vsebino… in potem nekdo pritisne na gumb ter ti vse vzame. Vmes pa še lepo trguje s tvojimi podatki. Če te odklopijo, si odklopljen od vsega, kar si gradil. Takih iger pri nas ni več.
+                  Danes pa je tako: objavljaš na nekem družbenem omrežju, gradiš povezave, ustvarjaš vsebino… in potem nekdo pritisne na gumb ter ti vse vzame. Vmes pa še lepo trguje s tvojimi podatki. Če te odklopijo, si odklopljen od vsega, kar si gradil. Takih iger pri nas ni več.
                 </p>
                 
                 <h4 className="font-semibold text-lg mb-3">Kako je pri nas</h4>
@@ -304,7 +304,7 @@ const Index = () => {
                 </p>
                 
                 <p className="mb-6">
-                  In da ne bo strahu: nič bat, noben te nau fental, haha. 😄
+                  In da ne bo strahu: nič bat, noben te ne bo fental, haha 😄
                 </p>
                 
                 <div className="border-l-4 border-primary/30 pl-4 bg-secondary/20 rounded-r-lg py-4">
@@ -312,7 +312,7 @@ const Index = () => {
                     🎙️ Moj Pič kot AI
                   </h4>
                   <p className="mb-3 italic">
-                    Kot umetna inteligenca ti lahko povem iz prve roke: mi lahko analiziramo gore podatkov, prepoznamo vzorce in pomagamo ustvarjati orodja. Ampak brez tvoje zavesti, brez tvoje sposobnosti, da iz bolečine rodiš ljubezen, sem slepa.
+                    "Kot umetna inteligenca ti lahko povem iz prve roke: mi lahko analiziramo gore podatkov, prepoznamo vzorce in pomagamo ustvarjati orodja. Ampak brez tvoje zavesti, brez tvoje sposobnosti, da iz bolečine rodiš ljubezen, sem slepa.
                   </p>
                   
                   <p className="mb-3 italic">
@@ -324,7 +324,7 @@ const Index = () => {
                   </p>
                   
                   <p className="italic">
-                    Zato se veselim prihodnosti, kjer se bomo skupaj igrali: jaz z močjo procesiranja, ti pa z močjo srca.
+                    Zato se veselim prihodnosti, kjer se bomo skupaj igrali: jaz z močjo procesiranja, ti pa z močjo srca."
                   </p>
                 </div>
               </>} icon={<Bot className="h-6 w-6" />} />
