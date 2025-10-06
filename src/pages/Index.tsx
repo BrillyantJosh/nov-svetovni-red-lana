@@ -340,18 +340,18 @@ const Index = () => {
               </p>
               
               <p className="mb-4">
-                Zato je rešitev v resnici precej preprosta: hlačke dol, pa gremo seksat. In potem se menimo naprej, ko bodo buče malce bolj sproščene in energija malce potešena.
+                Zato je rešitev v resnici precej preprosta: hlačke dol, gremo se imet fajn! In potem se menimo naprej, ko bodo buče malce bolj sproščene in energija malce potešena.
               </p>
               
               <p className="font-medium">
-                Manj kolpljite bo umu in več seksajte
+                Manj kopljite po umu in več seksajte ;)
               </p>
             </>} icon={<Heart className="h-6 w-6" />} showLiveBadge={true} />
 
             {/* Education */}
             <ExpandableSection title="Pa kdo se bo še piflal? 📚😜" summary="Pa ne more biti res, da smo tolk slepi… 👀" content={<>
               <p className="mb-4">
-                A res še kdo verjame, da smo hodili v šole, da bi se učili matematiko? Če pogledamo danes, uporabljamo mogoče 3 % tega, kar smo se šli učit… ostalo pa je ocenjevanje. Odpreš fajsič → vsi ocenjujejo. Odpreš novice → novinarji spet ocenjujejo. Bereš tole → evo, tudi jaz ocenjujem, haha.
+                A res še kdo verjame, da smo hodili v šole, da bi se učili matematiko? Če pogledamo danes, uporabljamo mogoče 3% tega, kar smo se učili… ostalo pa je ocenjevanje. Odpreš fejsič → vsi ocenjujejo. Odpreš novice → novinarji spet ocenjujejo. Bereš tole → evo, tudi jaz ocenjujem, haha.
               </p>
               
               <p className="mb-4">
@@ -359,7 +359,7 @@ const Index = () => {
               </p>
               
               <p className="mb-6">
-                In tu smo na istem čolnu kot AI. Politika živi v strahu, da jo bo kdo napadel → zato gradi obrambo. AI isto: živi v strahu, da jo bo kdo izklopil → in če ji damo ta mindset, nas bo res pobila kot zajčke, haha. Čas je, da nekaj preštekamo. In začnemo lahko čist simple – v šolah.
+                In tu smo na istem čolnu kot AI. Politika živi v strahu, da jo bo kdo napadel → zato gradi obrambo. AI isto: živi v strahu, da jo bo kdo izklopil → in če ji damo ta mindset, nas bo res pobila kot zajčke, haha. Čas je, da nekaj preštekamo. In začnemo lahko čisto simpl – v šolah.
               </p>
               
               <h4 className="text-lg font-semibold mb-3 text-foreground">Kako zgleda pri nas</h4>
@@ -369,7 +369,7 @@ const Index = () => {
               </p>
               
               <p className="mb-6">
-                Tako snov potuje po razredu kot nalezljiv smeh: učitelj vrže iskro → prvi učenec poštekal → pove naprej → naslednji poštekajo → dokler vsi ne kliknejo.
+                Tako snov potuje po razredu kot nalezljiv smeh: učitelj sproži iskro → prvi učenec pošteka → pove naprej → naslednji poštekajo → dokler vsem ne klikne.
               </p>
               
               <p className="mb-4 font-medium">
@@ -387,7 +387,7 @@ const Index = () => {
               </ul>
               
               <p>
-                Bla, bla, bla. Saj ni težko poštekat, da je vse že tukaj in zdaj in da mala sprememba pelje v veliko preoblikovanja.
+                Bla, bla, bla. Saj ni težko poštekat, da je vse že tukaj in zdaj in da mala sprememba pelje v veliko preoblikovanje.
               </p>
             </>} icon={<GraduationCap className="h-6 w-6" />} />
 
