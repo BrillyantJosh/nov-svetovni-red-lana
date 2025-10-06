@@ -182,7 +182,7 @@ const Index = () => {
             {/* Consciousness-based Voting */}
             <ExpandableSection title="Gremo volit malce drugače 🗳️" summary="A ne bi bilo kul, da bi enkrat vsi tulili v isti rog — in se končno strinjali?" content={<>
                 <p className="mb-4">
-                  Danes imamo kao demokracijo. Ampak v resnici vse, kar je demokratičnega v naši ureditvi, je to, da znova in znova "demokratično" izvolimo novega diktatorja, ki nas potem nekaj let j… Polovico časa pa porabimo, da se prerekamo, kdo je boljši in kdo slabši. Saj ne moremo biti tako naivni, da tega ne opazimo v dobi informatizacije. Ok, pred 1000 leti je to še šlo, ampak ne leta 2025.
+                  Danes imamo kao demokracijo. Ampak v resnici vse, kar je demokratičnega v naši ureditvi, je to, da znova in znova "demokratično" izvolimo novega diktatorja, ki nas potem nekaj let j…. Polovico časa pa porabimo, da se prerekamo, kdo je boljši in kdo slabši. Saj ne moremo biti tako naivni, da tega ne opazimo v dobi informatizacije? Ok, pred 1000 leti je to še šlo, ampak ne leta 2025.
                 </p>
                 
                 <p className="mb-4">
@@ -192,7 +192,7 @@ const Index = () => {
                 </p>
                 
                 <p className="mb-4">
-                  Kdor koli lahko predlaga idejo. Če je res na višjem nivoju zavesti, potem ne sme imeti niti enega samega nasprotnika. Samo take ideje lahko služijo celoti. Tak proces ni samo "volitve" — je pot v preoblikovanje skupnosti v nekaj več.
+                  Kdorkoli lahko predlaga idejo. Če je res na višjem nivoju zavesti, potem ne sme imeti niti enega samega nasprotnika. Samo take ideje lahko služijo celoti. Tak proces ni samo "volitev" — je pot v preoblikovanje skupnosti v nekaj več.
                 </p>
                 
                 <p className="mb-4">
@@ -200,7 +200,7 @@ const Index = () => {
                 </p>
                 
                 <p className="mb-4">
-                  Če pa se kdo vseeno odloči nasprotovati zgolj iz <strong>"nasprotovanja"</strong>, se sproži samoodgovorni postopek: prevzeti mora odgovornost ali pa se samodejno izključi iz Lanine realnosti. Njegova denarnica se odregistrira in izgubi težo v quorumu. Torej odpor sam od sebe izgine.
+                  Če pa se kdo vseeno odloči nasprotovati, in to zgolj iz <strong>"nasprotovanja"</strong>, se sproži samoodgovorni postopek: prevzeti mora odgovornost ali pa se samodejno izključi iz Lanine realnosti. Njegova denarnica se odregistrira in izgubi težo v quorumu. Torej odpor sam od sebe izgine.
                 </p>
                 
                 <p className="mb-4">
@@ -215,7 +215,7 @@ const Index = () => {
               </>} icon={<Brain className="h-6 w-6" />} showLiveBadge={true} />
 
             {/* New Legal Order */}
-            <ExpandableSection title="Nč se naumo več tožaril ⚖️" summary="Danes iz sodišča hodimo skregani. Jutri bomo iz njega hodili kot prijatelji." content={<>
+            <ExpandableSection title="Nič se naumo več tožaril ⚖️" summary="Danes iz sodišča hodimo skregani. Jutri bomo iz njega hodili kot prijatelji." content={<>
                 <p className="mb-4">
                   Tipična zgodba gre takole: <em>"Jaz nisem kriv, sosedov Janez je pujs in zato ga bom tožil, ker me je okoli prinesel."</em> In tako drug za drugega mislimo, da smo prašiči. Na koncu pridemo do tega, da je v očeh nekoga vsak od nas "pujs".
                 </p>
