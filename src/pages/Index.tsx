@@ -43,7 +43,7 @@ const Index = () => {
               <span className="hero-text">'Mejmo se fajn</span>
             </h1>
             <h2 className="font-heading text-3xl md:text-4xl font-semibold text-secondary mb-4">
-              1111Nov Svetovni Red Lana
+              Nov Svetovni Red Lana
             </h2>
             <div className="flex items-center justify-center gap-2 text-lg text-muted-foreground">
               <Sparkles className="h-5 w-5 text-accent animate-pulse-glow" />
