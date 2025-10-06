@@ -37,10 +37,10 @@ const JoinMovement = () => {
           <section className="mb-12">
             <h2 className="text-2xl font-semibold mb-6 text-foreground">Naše socialno omrežje</h2>
             <p className="mb-4 text-foreground leading-relaxed">
-              Ustvarili smo svoje decentralizirano socialno omrežje, kjer gradiš izkušnjo nove realnosti. In ja, tukaj boš imel tudi ti ful keša. 🙂
+              Ustvarili smo svoje decentralizirano socialno omrežje, kjer gradiš izkušnjo nove realnosti. In ja, tukaj boš imel tudi ti ful keša 🙂
             </p>
             <p className="mb-6 text-foreground leading-relaxed">
-              Ker pa vemo, da si mogoče neverni Tomaž, ki ne verjame v pravljice, se bomo malo poigrali skupaj. Registriraš se v Lanino omrežje, poskušaš najti, kje se skriva zajec, in nas testiraš. Če ti uspe – bravo, dokazal si, da blefiramo. Če pa te potegne noter, boš postal tako kot mi – srečen čudak.
+              Ker pa vemo, da si mogoče ne(je)verni Tomaž, ki ne verjame v pravljice, se bomo malo poigrali skupaj. Registriraš se v Lanino omrežje, poskušaš najti, kje se skriva zajec, in nas testiraš. Če ti uspe – bravo, dokazal si, da blefiramo. Če pa te potegne noter, boš postal tako kot mi – srečen čudak.
             </p>
           </section>
 
@@ -50,7 +50,7 @@ const JoinMovement = () => {
               Ker imamo radi keš, si mi namesto lajkov pošiljamo kar prave Lane. To je najhitrejši način, da prideš do svoje prve registrirane Lane, ki bo nekoč vredna 100 milijončkov.
             </p>
             <p className="mb-4 text-foreground leading-relaxed">
-              Če želiš obogatiti malo prej, boš moral kako Lano tudi kupiti. Ker so zelo redke, je danes praktično nemogoče kupiti več kot 10 € registriranih LAN. In prav ta redkost daje igri še več žmohta. Če pa hočeš, tako kot mi, že danes živeti od tega, boš moral pomagati soustvarjati infrastrukturo. Od tega se pa da res živet.
+              Če želiš obogateti malo prej, boš moral kako Lano tudi kupiti. Ker so zelo redke, je danes praktično nemogoče kupiti za več kot 10€ registriranih LAN. In prav ta redkost daje igri še več žmohta. Če pa hočeš, tako kot mi, že danes živeti od tega, boš moral pomagati soustvarjati infrastrukturo. Od tega se pa da res živet.
             </p>
           </section>
 
@@ -81,7 +81,7 @@ const JoinMovement = () => {
 
           <div className="text-center py-8">
             <p className="text-xl font-medium text-foreground mb-4">
-              Zdaj pa dovolj klobasanja. Hop na vlak – al pa bejž stran, haha. 🚂
+              Zdaj pa dovolj klobasanja. Hop na vlak – al pa bejž stran, haha 🚂
             </p>
           </div>
 
