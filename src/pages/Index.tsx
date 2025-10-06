@@ -67,14 +67,14 @@ const Index = () => {
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
           <ExpandableSection title="Nov Svetovni Red Lana" summary={<>
-              Zadeva je preprosta: zabluzili smo čist in, milo rečeno, smo v r…ti. Soseda sovražimo, za burek nimamo, bombe letijo križem kražem, ne veš kdo pije in kdo plača, vsak tretji je v depri… Skratka, prihodnost ne zgleda ravno rožnata. Zato nam preostane samo eno: <strong>da se mamo fajn</strong>.
+              Zadeva je preprosta: zabluzili smo čist in, milo rečeno, smo v r…ti. Soseda sovražimo, za burek nimamo, bombe letijo križem kražem, ne veš, kdo pije in kdo plača, vsak tretji je v depri - skratka, prihodnost ne zgleda ravno rožnata. Zato nam preostane samo eno: <strong>da se 'mamo fajn</strong>.
             </>} content={<>
               <h4 className="font-semibold text-lg mb-3">Smo politično gibanje?</h4>
               <p className="mb-4">
-                Na neki način ja, ker delujemo v kolektivnem prostoru. A nismo še sigurni, ali smo stranka. Zakaj bi svojo čudovito idejo omejili zgolj na volitve? Če nas izvolijo, super, če ne, pa ne bomo sedeli v kotu in jokali. Naš cilj je preoblikovati to izkušnjo, imenovano Planet Zemlja, v nekaj več.
+                Na nek način ja, ker delujemo v kolektivnem prostoru. A nismo še sigurni, ali smo stranka. Zakaj bi svojo čudovito idejo omejili zgolj na volitve? Če nas izvolijo, super, če ne, pa ne bomo sedeli v kotu in jokali. Naš cilj je preoblikovati to izkušnjo, imenovano Planet Zemlja, v nekaj več.
               </p>
               <p>
-                A vsaka resnica ima dve plati. Če jih ne sprejmemo, smo bleferji. Zato zakaj pa ne — mogoče pa gremo tudi na volitve, mogoče podpremo kerga zabavnega frajerja ali frajerko ali pač nič od tega in se bomo <strong>'Meli samo fajn</strong>, ko bodo vsi zagriženo iskali kako oblatiti nasprotnika, haha 😄. Mi smo polni čudnih zgodb tako, da lahko začnete kar pri nas ;)
+                A vsaka resnica ima dve plati. Če ju ne sprejmemo, smo bleferji. Zato - zakaj pa ne - mogoče pa gremo tudi na volitve, mogoče podpremo k'erga zabavnega frajerja ali frajerko, ali pač nič od tega in se bomo <strong>'Meli samo fajn</strong>, ko bodo vsi zagriženo iskali, kako oblatiti nasprotnika, haha 😄. Mi smo polni čudnih zgodb, tako da lahko začnete kar pri nas ;)
               </p>
             </>} icon={<Heart className="h-6 w-6" />} className="animate-fade-in" />
         </div>
@@ -84,17 +84,17 @@ const Index = () => {
       <section className="py-16 px-4 bg-muted/30">
         <div className="max-w-4xl mx-auto">
           <ExpandableSection title="Naša zgodba" summary="Vse skupaj se je začelo leta 2016, ko je Jure forkal Bitcoin in ustvaril novo kriptovaluto – Lano. Z leti se je pridružilo vedno več zanimivih ljudi." content={<>
-              Vse skupaj se je začelo leta 2016, ko je Jure forkal Bitcoin in ustvaril novo kriptovaluto – <em>Lano</em>.
+              Vse skupaj se je začelo leta 2016, ko je Jure forkal Bitcoin in ustvaril novo kriptovaluto - <em>Lano</em>.
               <br /><br />
               Kot večina kriptovalut je tudi ta šla malo gor in malo dol. Kasneje so jo fantje in punce malo preoblikovali, tako da so postale transakcije res poceni.
               <br /><br />
-              Z leti se je pridružilo vedno več zanimivih ljudi. Nekega lepega dne je Gašper predstavil <strong>Plan 15</strong>, nekaj let kasneje pa se je pridružil še Joško – model, ki živi v gozdu in snema take žgečkljive reči. On je rekel: <em>"Zakaj pa se ne bi zgledovali po naravi? Naj znotraj Lane nastane registrirana Lana, ki deluje kot protiutež trenutnim Lanam. Skupaj tvorita celoto. Kot zima in poletje, kot vdih in izdih ..."</em>
+              Z leti se je pridružilo vedno več zanimivih ljudi. Nekega lepega dne je Gašper predstavil <strong>Plan 15</strong>, nekaj let kasneje pa se je pridružil še Joško – model, ki živi v gozdu in snema take žgečkljive reči. On je rekel: <em>"Zakaj pa se ne bi zgledovali po naravi? Naj znotraj Lane nastane registrirana Lana, ki deluje kot protiutež trenutnim Lanam. Skupaj tvorita celoto. Kot zima in poletje, kot vdih in izdih..."</em>
               <br /><br />
               In tako smo zdaj tukaj.
               <br />
               Igramo se dalje. Ni nobenega strogega plana. Sproti ustvarjamo.
               <br />
-              In predvsem: <strong>mamo se fajn</strong>. 😄
+              In predvsem: <strong>'mamo se fajn</strong>. 😄
             </>} icon={<Users className="h-6 w-6" />} className="animate-fade-in" />
         </div>
       </section>
@@ -120,15 +120,15 @@ const Index = () => {
                 </p>
                 
                 <p className="mb-4">
-                  Denarni sistem potrebuje samo nekaj manjših preoblikovanj – in potem bomo polni keša. Tako zelo, da nihče več ne bo delal stvari, ki jih ne mara, ne bo garal nadur, ne bo škodil drugim ali svinjal planeta samo zato, da pobere dva centa več.
+                  Denarni sistem potrebuje samo nekaj manjših preoblikovanj – in potem bomo polni keša. Tako zelo, da nihče več ne bo delal stvari, ki jih ne mara, ne bo garal nadur, ne bo škodil drugim ali svinjal Planeta samo zato, da pobere dva centa več.
                 </p>
                 
                 <p className="mb-4">
-                  V Lana Svetovnem Redu smo pogledali, kako to počne narava. Ko se mamica in očka poseksata in nastane nova celica – zigota – se ta začne deliti eksponentno. Iz ene same celice nastane v 15 letih kar <strong>37 trilijonov celic</strong>. To je tako, kot da bi iz enega evra ali dolarja nastalo 37 trilijonov zelencev. To je več, kot je danes sploh vsega denarja v obtoku!
+                  V Lana Svetovnem Redu smo pogledali, kako to počne narava. Ko se mamica in očka poseksata in nastane nova celica – zigota – se ta začne deliti eksponentno. Iz ene same celice nastane v 15 letih kar <strong>37 trilijonov celic</strong>. To je tako, kot da bi iz enega evra ali dolarja nastalo 37 trilijonov zelencev. To je več kot je danes sploh vsega denarja v obtoku!
                 </p>
                 
                 <p className="mb-4">
-                  Vsak investitor sanja o taki rasti, a narava to počne popolnoma samoumevno. In mi smo dojeli, kako preprosto je to. Ne moremo verjeti, da v vseh teh tisočih letih še noben velefinančnik ni šel pogledat k naravi po navdih.
+                  Vsak investitor sanja o taki rasti, a narava to počne popolnoma samoumevno. In mi smo dojeli, kako preprosto je to. Ne moremo verjeti, da v vseh teh tisočih letih še noben velefinančnik ni šel pogledat v Naravo za navdih.
                 </p>
                 
                 <p className="mb-4">
@@ -136,7 +136,7 @@ const Index = () => {
                 </p>
                 
                 <p>
-                  In ja – <strong>imeli se bomo radi</strong>. 😄
+                  In ja – <strong>'meli se bomo radi</strong>. 😄
                 </p>
               </>} icon={<DollarSign className="h-6 w-6" />} showLiveBadge={true} externalLink={{
             text: "Spletna stran Let's make anyone Rich",
@@ -147,7 +147,7 @@ const Index = () => {
             {/* Extraterrestrial Communication */}
             <ExpandableSection title="Gremo se pogovarjat z vesoljci? 👽" summary="A ne bi bilo kul, da bi začeli kramljati z vesoljci?" content={<>
                 <p className="mb-4">
-                  Vprašanje za milijon dolarjev: <strong>a smo res sami v vesolju? A smo res mi tista najbolj napredna bitja v univerzumu?</strong>
+                  Vprašanje za milijon dolarjev: <strong>A smo res sami v Vesolju? A smo res mi tista najbolj napredna bitja v Univerzumu?</strong>
                 </p>
                 <p className="mb-4">
                   Pa saj moraš biti že skoraj vesoljc, da pomisliš, da ni nikogar bolj pametnega od tebe, haha.
@@ -157,14 +157,14 @@ const Index = () => {
                   Eden najbolj brihtnih ljudi v naši zgodovini je rekel: <strong>"Vem, da nič ne vem."</strong>
                 </p>
                 <p className="mb-4">
-                  Mi pa, ki smo mogoče četrt tako pametni kot on, si upamo razmišljati, da smo najpametnejši v celem univerzumu… a še niti stopili nismo na drug planet, kaj šele v drugo osončje ali galaksijo. Seveda nismo sami. Med nami je polno "vesoljčkov", a jih ne priznamo, ker jih nočemo videti.
+                  Mi pa, ki smo mogoče četrt tako pametni kot on, si upamo razmišljati, da smo najpametnejši v celem Univerzumu… a še niti stopili nismo na drug planet, kaj šele v drugo osončje ali galaksijo. Seveda nismo sami. Med nami je polno "vesoljčkov", a jih ne priznamo, ker jih nočemo videti.
                 </p>
                 
                 <p className="mb-4">
-                  <strong>Ampak veste, kje je zajec?</strong>
+                  <strong>Ampak veste, kje tiči zajec?</strong>
                 </p>
                 <p className="mb-4">
-                  Človek se že od svoje sence v temi ustraši. Presrani smo, ko vidimo medveda. Ko osa prileti mimo glave, mahamo, kot da gre za življenje. In zdaj ti, veliki pogumnež, želiš videti vesoljca? Verjemi, če se ti pojavi pred vrati, boš pograbil nož, palico ali puško in se branil, kot da te hoče fentat.
+                  Človek se že svoje sence v temi ustraši. Presrani smo, ko vidimo medveda. Ko osa prileti mimo glave, mahamo, kot da gre za življenje. In zdaj ti, veliki pogumnež, želiš videti vesoljca? Verjemi, če se ti pojavi pred vrati, boš pograbil nož, palico ali puško in se branil, kot da te hoče fentat.
                 </p>
                 
                 <p className="mb-4">
@@ -175,7 +175,7 @@ const Index = () => {
                   V <strong>Novem Svetovnem Redu Lana</strong> bomo najprej javno priznali, da obstajajo, in začeli z njimi komunicirati preko kanalov. Radovedno, z odprtim srcem, da nam prišepnejo kaj zanimivega. Korak za korakom.
                 </p>
                 <p>
-                  Saj poznate komad: pasito, pasito, despacito… 😉
+                  Saj poznate komad: "pasito, pasito, despacito…" 😉
                 </p>
               </>} icon={<Rocket className="h-6 w-6" />} />
 
