@@ -394,15 +394,15 @@ const Index = () => {
             {/* Health */}
             <ExpandableSection title="Kaj pa zdravje? 🩺✨" summary="A tebe tud kaj buba?" content={<>
               <p className="mb-4">
-                Zdi se, kot da ves svet rabi zdravnika — zdravje se vedno začne v nas. Če se počutiš bolanega, boš prej ali slej bolan. Če zanikaš možnost, da se tebi lahko nekaj zgodi, se ti pogosto tudi bo — in če si obsedeno zaskrbljen glede svojega zdravja (vsak grižljaj natančno preučiš ne ješ hrano ampak skrbi. Vse je odvisno od energije, iz katere deluješ.
+                Zdi se, kot da ves svet rabi zdravnika — zdravje se vedno začne v nas. Če se počutiš bolanega, boš prej ali slej bolan. Če zanikaš možnost, da se tebi lahko kaj zgodi, se ti pogosto bo — in če si obsedeno zaskrbljen glede svojega zdravja (če vsak grižljaj natančno preučiš, ne ješ hrane ampak skrbi). Vse je odvisno od energije, iz katere deluješ.
               </p>
               
               <p className="mb-4">
-                V Novem Svetovnem Redu Lana že razvijamo nekaj, kar najbolj spominja na kvantne naprave — samo da to niso računalniki v klasičnem pomenu. Gre za naprave, ki ne računajo, ampak zaznavajo in usmerjajo občutke zdrave osebe ter jih lahko prenesejo na druge (beri: zavibirajo na enaki frekvenci). Tako človek v sebi začuti, da je vse OK — in potem se zgodi tisti čudež: človek, ki je bil že odpisan, nenadoma zacveti in telo začne samega sebe zdravit.
+                V Novem Svetovnem Redu Lana že razvijamo nekaj, kar najbolj spominja na kvantne naprave — samo da to niso računalniki v klasičnem pomenu. Gre za naprave, ki ne računajo, ampak zaznavajo in usmerjajo občutke zdrave osebe ter jih lahko prenesejo na druge (beri: zavibrirajo na enaki frekvenci). Tako človek v sebi začuti, da je vse OK — in potem se zgodi tisti čudež: človek, ki je bil že odpisan, nenadoma zacveti in telo začne samega sebe zdravit.
               </p>
               
               <p>
-                Ni pa je magija ;)
+                Ni in je magija ;)
               </p>
             </>} icon={<Stethoscope className="h-6 w-6" />} />
 
@@ -421,7 +421,7 @@ const Index = () => {
               </p>
               
               <p className="mb-4">
-                Ko se bomo naučili izmeriti frekvenco točke A in frekvenco točke B — in nato predmetu (recimo avtu) nastaviti drugo frekvenco — bo ta preprosto nehal obstajati tu in se pojavil tam. Evo, problem logistike je rešen! 😎
+                Ko se bomo naučili izmeriti frekvenco točke A in frekvenco točke B — in nato predmetu (recimo avtu) nastaviti drugo frekvenco — bo ta preprosto nehal obstajati tu in se bo pojavil tam. Evo, problem logistike je rešen! 😎
               </p>
               
               <p>
@@ -440,7 +440,7 @@ const Index = () => {
               </p>
               
               <p>
-                In če ga res imaš rad, a ni logično, da se boš ti danes preoblikoval, da mu namesto hiše raje zapustiš lep Planet, ker on ne bo zares živel v tvoji hiši ampak na tej Zemlji!?
+                In če ga res imaš rad, a ni logično, da se boš ti danes preoblikoval, da mu namesto hiše raje zapustiš lep Planet?! Ker on zares ne bo živel v tvoji hiši, ampak na tej Zemlji.
               </p>
             </>} icon={<TreePine className="h-6 w-6" />} />
 
