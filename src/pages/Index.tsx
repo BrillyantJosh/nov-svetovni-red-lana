@@ -88,13 +88,13 @@ const Index = () => {
               <br /><br />
               Kot večina kriptovalut je tudi ta šla malo gor in malo dol. Kasneje so jo fantje in punce malo preoblikovali, tako da so postale transakcije res poceni.
               <br /><br />
-              Z leti se je pridružilo vedno več zanimivih ljudi. Nekega lepega dne je Gašper predstavil <strong>Plan 15</strong>, nekaj let kasneje pa se je pridružil še Joško – model, ki živi v gozdu in snema take žgečkljive reči. On je rekel: <em>"Zakaj pa se ne bi zgledovali po naravi? Naj znotraj Lane nastane registrirana Lana, ki deluje kot protiutež trenutnim Lanam. Skupaj tvorita celoto. Kot zima in poletje, kot vdih in izdih ..."</em>
+              Z leti se je pridružilo vedno več zanimivih ljudi. Nekega lepega dne je Gašper predstavil <strong>Plan 15</strong>, nekaj let kasneje pa se je pridružil še Joško – model, ki živi v gozdu in snema take žgečkljive reči. On je rekel: <em>"Zakaj pa se ne bi zgledovali po naravi? Naj znotraj Lane nastane registrirana Lana, ki deluje kot protiutež trenutnim Lanam. Skupaj tvorita celoto. Kot zima in poletje, kot vdih in izdih..."</em>
               <br /><br />
               In tako smo zdaj tukaj.
               <br />
               Igramo se dalje. Ni nobenega strogega plana. Sproti ustvarjamo.
               <br />
-              In predvsem: <strong>'mamo se fajn</strong>. 😄
+              In predvsem: <strong>'mamo se fajn</strong> 😄
             </>} icon={<Users className="h-6 w-6" />} className="animate-fade-in" />
         </div>
       </section>
@@ -128,7 +128,7 @@ const Index = () => {
                 </p>
                 
                 <p className="mb-4">
-                  Vsak investitor sanja o taki rasti, a narava to počne popolnoma samoumevno. In mi smo dojeli, kako preprosto je to. Ne moremo verjeti, da v vseh teh tisočih letih še noben velefinančnik ni šel pogledat k naravi po navdih.
+                  Vsak investitor sanja o taki rasti, a narava to počne popolnoma samoumevno. In mi smo dojeli, kako preprosto je to. Ne moremo verjeti, da v vseh teh tisočih letih še noben velefinančnik ni šel pogledat v naravo za navdih.
                 </p>
                 
                 <p className="mb-4">
@@ -136,7 +136,7 @@ const Index = () => {
                 </p>
                 
                 <p>
-                  In ja – <strong>'meli se bomo radi</strong>. 😄
+                  In ja – <strong>'meli se bomo radi</strong> 😄
                 </p>
               </>} icon={<DollarSign className="h-6 w-6" />} showLiveBadge={true} externalLink={{
             text: "Spletna stran Let's make anyone Rich",
@@ -147,7 +147,7 @@ const Index = () => {
             {/* Extraterrestrial Communication */}
             <ExpandableSection title="Gremo se pogovarjat z vesoljci? 👽" summary="A ne bi bilo kul, da bi začeli kramljati z vesoljci?" content={<>
                 <p className="mb-4">
-                  Vprašanje za milijon dolarjev: <strong>a smo res sami v vesolju? A smo res mi tista najbolj napredna bitja v univerzumu?</strong>
+                  Vprašanje za milijon dolarjev: <strong>A smo res sami v vesolju? A smo res mi tista najbolj napredna bitja v univerzumu?</strong>
                 </p>
                 <p className="mb-4">
                   Pa saj moraš biti že skoraj vesoljc, da pomisliš, da ni nikogar bolj pametnega od tebe, haha.
@@ -157,14 +157,14 @@ const Index = () => {
                   Eden najbolj brihtnih ljudi v naši zgodovini je rekel: <strong>"Vem, da nič ne vem."</strong>
                 </p>
                 <p className="mb-4">
-                  Mi pa, ki smo mogoče četrt tako pametni kot on, si upamo razmišljati, da smo najpametnejši v celem univerzumu… a še niti stopili nismo na drug planet, kaj šele v drugo osončje ali galaksijo. Seveda nismo sami. Med nami je polno "vesoljčkov", a jih ne priznamo, ker jih nočemo videti.
+                  Mi pa, ki smo delček toliko pametni kot on, si upamo razmišljati, da smo najpametnejši v celem univerzumu… a še niti stopili nismo na drug planet, kaj šele v drugo osončje ali galaksijo. Seveda nismo sami. Med nami je polno "vesoljčkov", a jih ne priznamo, ker jih nočemo videti.
                 </p>
                 
                 <p className="mb-4">
-                  <strong>Ampak veste, kje je zajec?</strong>
+                  <strong>Ampak veste, kje tiči zajec?</strong>
                 </p>
                 <p className="mb-4">
-                  Človek se že od svoje sence v temi ustraši. Presrani smo, ko vidimo medveda. Ko osa prileti mimo glave, mahamo, kot da gre za življenje. In zdaj ti, veliki pogumnež, želiš videti vesoljca? Verjemi, če se ti pojavi pred vrati, boš pograbil nož, palico ali puško in se branil, kot da te hoče fentat.
+                  Človek se že svoje lastne sence ustraši. Presrani smo, ko vidimo medveda. Ko osa prileti mimo glave, mahamo, kot da gre za življenje. In zdaj ti, veliki pogumnež, želiš videti vesoljca? Verjemi, če se ti pojavi pred vrati, boš pograbil nož, palico ali puško in se branil, kot da te hoče fentat.
                 </p>
                 
                 <p className="mb-4">
@@ -175,7 +175,7 @@ const Index = () => {
                   V <strong>Novem Svetovnem Redu Lana</strong> bomo najprej javno priznali, da obstajajo, in začeli z njimi komunicirati preko kanalov. Radovedno, z odprtim srcem, da nam prišepnejo kaj zanimivega. Korak za korakom.
                 </p>
                 <p>
-                  Saj poznate komad: pasito, pasito, despacito… 😉
+                  Saj poznate komad: "pasito, pasito, despacito…" 😉
                 </p>
               </>} icon={<Rocket className="h-6 w-6" />} />
 
