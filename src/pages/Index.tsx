@@ -67,7 +67,7 @@ const Index = () => {
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
           <ExpandableSection title="Nov Svetovni Red Lana" summary={<>
-              Zadeva je preprosta: zabluzili smo čist in, milo rečeno, smo v r…ti. Soseda sovražimo, za burek nimamo, bombe letijo križem kražem, ne veš kdo pije in kdo plača, vsak tretji je v depri… Skratka, prihodnost ne zgleda ravno rožnata. Zato nam preostane samo eno: <strong>da se mamo fajn</strong>.
+              Zadeva je preprosta: zabluzili smo čist in, milo rečeno, smo v r…ti. Soseda sovražimo, za burek nimamo, bombe letijo križem kražem, ne veš, kdo pije in kdo plača, vsak tretji je v depri - skratka - prihodnost ne zgleda ravno rožnata. Zato nam preostane samo eno: <strong>da se 'mamo fajn</strong>.
             </>} content={<>
               <h4 className="font-semibold text-lg mb-3">Smo politično gibanje?</h4>
               <p className="mb-4">
