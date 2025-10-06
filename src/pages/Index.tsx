@@ -445,13 +445,13 @@ const Index = () => {
             </>} icon={<TreePine className="h-6 w-6" />} />
 
             {/* Fighting Spirit */}
-            <ExpandableSection title="Gremo se tepst?" summary="Ja nimamo kej, rad se tepemo :)" content={<>
+            <ExpandableSection title="Gremo se tepst?" summary="Ja nimamo kej, radi se tepemo :)" content={<>
               <p className="mb-4">
-                Kako mamo danes? Na tem planetu imamo vsi nekakšna obrambna ministrstva: "Jaz nisem problem — jaz nikomur nič slabega nočem." In potem frčijo drončki čez vse kotičke, haha.
+                Kako imamo danes? Na tem planetu imamo vsi nekakšna obrambna ministrstva: "Jaz nisem problem — jaz nikomur nič slabega nočem." In potem frčijo drončki čez vse kotičke, haha.
               </p>
               
               <p className="mb-4">
-                Počasi se bo treba zavedat: voditelji, ki niso razrešili vojne v sebi, jo prej ali slej projicirajo navzven. To velja predvsem za tiste, ki stalno "branijo" svoj teritorij. Ko živiš v strahu, da ti bo nekdo naredil nekaj hudega, se preventivno zaščitiš — in takoj označiš nekoga kot potencialnega sovražnika. Ta oseba to zazna kot grožnjo, odgovori in potem spet ti — ping-pong, vojna je tu. Vsi se samo branimo … in na koncu drug drugega napadamo.
+                Počasi se bo treba zavedat: voditelji, ki niso razrešili vojne v sebi, jo prej ali slej projicirajo navzven. To velja predvsem za tiste, ki stalno "branijo" svoj teritorij. Ko živiš v strahu, da ti bo nekdo naredil nekaj hudega, se preventivno zaščitiš — in takoj označiš nekoga kot potencialnega sovražnika. Ta oseba to zazna kot grožnjo, odgovori in potem spet ti — ping-pong, vojna je tu. Vsi se samo branimo… in na koncu drug drugega napadamo.
               </p>
               
               <p className="mb-4">
@@ -459,7 +459,7 @@ const Index = () => {
               </p>
               
               <p>
-                Seveda — če pa kdo kljub vsemu verjame, da obstajajo realne grožnje, ima možnost predlagat "vojskovanje". Če za ta predlog zbere 100 % podporo vseh upravičencev (good luck), potem pa — no, potem se lahko gremo sabljat vsi (metaforično ali pa kam pač že, če res hočete). 😉
+                Seveda — če pa kdo kljub vsemu verjame, da obstajajo realne grožnje, ima možnost predlagat "vojskovanje". Če za ta predlog zbere 100% podporo vseh upravičencev (good luck), potem pa — no, potem se lahko gremo sabljat vsi (metaforično ali kakorkoli že) 😉
               </p>
             </>} icon={<Swords className="h-6 w-6" />} showLiveBadge={true} />
           </div>
@@ -499,7 +499,7 @@ const Index = () => {
 
           <div className="text-center mb-12">
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              Vsak mesec vzklije ena nova igračka, včasih dve, morda celo tri. Vse pa rastejo v podporo temu decentraliziranemu sistemu, ki korak za korakom preoblikuje izkušnjo človeka na Zemlji. In veš kaj? Pomemben si tudi ti — da skupaj ustvarjamo, se povezujemo in se imamo res fajn.
+              Vsak mesec vzklije ena nova igračka, včasih dve, morda celo tri. Vse pa rastejo v podporo temu decentraliziranemu sistemu, ki korak za korakom preoblikuje izkušnjo človeka na Zemlji. In veš kaj? Pomemben si tudi ti — da skupaj ustvarjamo, se povezujemo in se imamo res fajn!
             </p>
           </div>
 
