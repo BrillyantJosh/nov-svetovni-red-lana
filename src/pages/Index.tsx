@@ -725,7 +725,7 @@ const Index = () => {
             <WebsiteCard
               title="Ustvari Denarnico"
               link="https://www.offlinelana.org"
-              description="Na tej povezavi lahko varno ustvariš brezplačno Lanin ključ in denarnico na blockchainu."
+              description="Na tej povezavi lahko varno in brezplačno ustvariš Lanin ključ in denarnico na blockchainu."
               imageSrc={walletGenerator}
               imageAlt="Lana Paper Wallet Generator"
             />
@@ -739,35 +739,35 @@ const Index = () => {
             <WebsiteCard
               title="Mobilno plačevanje z LanaCoini"
               link="https://www.safeLana.com"
-              description="Na tej strani lahko varno offline podpisujete Lana Transakcije."
+              description="Na tej strani lahko varno offline podpisuješ Lana Transakcije."
               imageSrc={safeLana}
               imageAlt="Safe Lana"
             />
             <WebsiteCard
               title="Pot do 100 milijonov"
               link="https://letsmakeanyonerich.com"
-              description="Na tej strani si lahko pogledaš kako se cena Lane deli in kje smo."
+              description="Na tej strani si lahko pogledaš, kako se cena Lane deli in kje smo."
               imageSrc={milestones}
               imageAlt="LanaCoin Split Milestones"
             />
             <WebsiteCard
               title="Lana Coin Eternity Relay"
               link="https://www.lanacoin-eternity.com/"
-              description="Vse informacije se decentrazlirano shranjjejo s pomočjo NOSTR protokola na t.i. Relayih."
+              description="Vse informacije se decentralizirano shranjujejo s pomočjo NOSTR protokola na t.i. Relayih."
               imageSrc={lanaEternityRelay}
               imageAlt="NOSTR Relay Watch interface for Lana Coin Eternity"
             />
             <WebsiteCard
               title="Lana Heart Voice Relay"
               link="https://lanaheartvoice.com/"
-              description="Vse informacije se decentrazlirano shranjjejo s pomočjo NOSTR protokola na Relayih."
+              description="Vse informacije se decentralizirano shranjujejo na Relayih s pomočjo NOSTR protokola."
               imageSrc={lanaHeartVoice}
               imageAlt="The HeartVoice - Lana NOSTR relay monitor"
             />
             <WebsiteCard
               title="Lana Loves UK"
               link="https://www.lanalovesuk.com/"
-              description="Neke oblika bolha v UKju kjer je mogoče kupovati z Lano"
+              description="Neke oblika "Bolha" v UK-ju, kjer je mogoče kupovati z Lano"
               imageSrc={lanaLovesUk}
               imageAlt="LanaLovesUK Community Marketplace"
             />
@@ -781,7 +781,7 @@ const Index = () => {
             <WebsiteCard
               title="Lana8Wonder"
               link="https://www.lana8wonder.com"
-              description="Za tiste, ki bi malo preje radi mel milijončke"
+              description="Za tiste, ki bi radi 'meli milijončke malo prej"
               imageSrc={lana8wonder}
               imageAlt="Lana8Wonder platform for wealth creation"
             />
@@ -805,7 +805,7 @@ const Index = () => {
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
               Vsak mesec vzklije ena nova igračka, včasih dve, morda celo tri. Vse pa rastejo v podporo temu
               decentraliziranemu sistemu, ki korak za korakom preoblikuje izkušnjo človeka na Zemlji. In veš kaj?
-              Pomemben si tudi ti — da skupaj ustvarjamo, se povezujemo in se imamo res fajn!
+              Pomemben si tudi ti — da skupaj ustvarjamo, se povezujemo in se imamo - res fajn!
             </p>
           </div>
 
