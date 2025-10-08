@@ -767,7 +767,7 @@ const Index = () => {
             <WebsiteCard
               title="Lana Loves UK"
               link="https://www.lanalovesuk.com/"
-              description="Neke oblika "Bolha" v UK-ju, kjer je mogoče kupovati z Lano"
+              description="Neke oblika 'Bolha' v UK-ju, kjer je mogoče kupovati z Lano"
               imageSrc={lanaLovesUk}
               imageAlt="LanaLovesUK Community Marketplace"
             />
