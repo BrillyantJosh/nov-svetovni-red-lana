@@ -518,7 +518,7 @@ const Index = () => {
 
             {/* Education */}
             <ExpandableSection
-              title="Pa kdo se bo še piflal? 📚😜"
+              title="Pa kdo se bo še piflal 📚😜"
               summary="Pa ne more biti res, da smo tolk slepi… 👀"
               content={
                 <>
@@ -575,7 +575,7 @@ const Index = () => {
 
             {/* Health */}
             <ExpandableSection
-              title="Kaj pa zdravje? 🩺✨"
+              title="Kaj pa zdravje 🩺✨"
               summary="A tebe tud' kaj boli?"
               content={
                 <>
@@ -767,7 +767,7 @@ const Index = () => {
             <WebsiteCard
               title="Lana Loves UK"
               link="https://www.lanalovesuk.com/"
-              description="Neke oblika 'Bolha' v UK-ju, kjer je mogoče kupovati z Lano"
+              description="Neke oblika 'Bolha' v UK-ju, kjer je mogoče kupovati z Lano."
               imageSrc={lanaLovesUk}
               imageAlt="LanaLovesUK Community Marketplace"
             />
@@ -781,7 +781,7 @@ const Index = () => {
             <WebsiteCard
               title="Lana8Wonder"
               link="https://www.lana8wonder.com"
-              description="Za tiste, ki bi radi 'meli milijončke malo prej"
+              description="Za tiste, ki bi radi 'meli milijončke malo prej."
               imageSrc={lana8wonder}
               imageAlt="Lana8Wonder platform for wealth creation"
             />
@@ -795,7 +795,7 @@ const Index = () => {
             <WebsiteCard
               title="100 Milijonov"
               link="https://www.100milion.fun"
-              description="Crowd funding platforma za LANA projekte"
+              description="Crowd funding platforma za LANA projekte."
               imageSrc={hundred_milion}
               imageAlt="100 Million crowdfunding platform"
             />
