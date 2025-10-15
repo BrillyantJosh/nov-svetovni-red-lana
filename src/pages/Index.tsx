@@ -34,6 +34,10 @@ import lanaAligns from "@/assets/lana-aligns.png";
 import lana8wonder from "@/assets/lana8wonder.png";
 import hundred_milion from "@/assets/100milion.png";
 import einsteinImage from "@/assets/einstein-new.jpg";
+import buyLanaPreview from "@/assets/buylana-preview.png";
+import lanaCoinMarketPreview from "@/assets/lana-coin-market-preview.png";
+import lanaMarketPlacePreview from "@/assets/lanamarket-place-preview.png";
+import lanaPaperPreview from "@/assets/lana-paper-preview.png";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
@@ -798,6 +802,34 @@ const Index = () => {
               description="Crowd funding platforma za LANA projekte."
               imageSrc={hundred_milion}
               imageAlt="100 Million crowdfunding platform"
+            />
+            <WebsiteCard
+              title="BuyLana"
+              link="https://www.buylana.com"
+              description="Peer2peer nakup registriranih Lan."
+              imageSrc={buyLanaPreview}
+              imageAlt="BuyLana - Peer-to-peer marketplace for buying registered LANA"
+            />
+            <WebsiteCard
+              title="SellLana"
+              link="https://www.selllana.com"
+              description="Peer2peer prodaja registriranih Lan."
+              imageSrc={lanaCoinMarketPreview}
+              imageAlt="SellLana - Peer-to-peer marketplace for selling registered LANA"
+            />
+            <WebsiteCard
+              title="LanaMarket.Place"
+              link="https://www.lanaMarket.place"
+              description="Malo oglasi za zakupe z Lanami."
+              imageSrc={lanaMarketPlacePreview}
+              imageAlt="LanaMarket.place - Decentralized marketplace for LANA transactions"
+            />
+            <WebsiteCard
+              title="Lana Papir"
+              link="https://www.LanaPaper.online"
+              description="Vnesi privatni ključ in si izdelaj papir za varno hrambo."
+              imageSrc={lanaPaperPreview}
+              imageAlt="Lana Paper - Generate secure paper wallet for LANA storage"
             />
           </div>
 
