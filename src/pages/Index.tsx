@@ -735,7 +735,7 @@ const Index = () => {
             />
             <WebsiteCard
               title="Registrar"
-              link="https://www.lanaregister.org"
+              link="https://www.lanaregister.com"
               description="Registrar spremlja BlockChain in beleži vsako registrirano transakcijo Lane."
               imageSrc={lanaRegister}
               imageAlt="Lana Register"
@@ -798,7 +798,7 @@ const Index = () => {
             />
             <WebsiteCard
               title="100 Milijonov"
-              link="https://www.100milion.fun"
+              link="https://100million.fun/"
               description="Crowd funding platforma za LANA projekte."
               imageSrc={hundred_milion}
               imageAlt="100 Million crowdfunding platform"
