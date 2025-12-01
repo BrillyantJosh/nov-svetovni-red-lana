@@ -70,17 +70,33 @@ const Index = () => {
                 bombe letijo križem kražem, ne veš, kdo pije in kdo plača, vsak tretji je v depri, skratka - prihodnost
                 ne zgleda ravno rožnata. Zato nam preostane samo eno: <strong>da se 'mamo fajn</strong>.
               </>} content={<>
-                <h4 className="font-semibold text-lg mb-3">Smo politično gibanje?</h4>
+              <h4 className="font-semibold text-lg mb-3">Smo politično gibanje?</h4>
                 <p className="mb-4">
-                  Na nek način ja, ker delujemo v kolektivnem prostoru. A nismo še sigurni, ali smo stranka. Zakaj bi
-                  svojo čudovito idejo omejili zgolj na volitve? Če nas izvolijo, super, če ne, pa ne bomo sedeli v kotu
-                  in jokali. Naš cilj je preoblikovati to izkušnjo, imenovano Planet Zemlja, v nekaj več.
+                  Na nek način da, ker delujemo v kolektivnem prostoru. A sebe ne vidimo kot politično stranko, temveč 
+                  kot podpornike tistih politikov, za katere bomo ocenili, da znajo ohranjati stabilno postavitev, dokler 
+                  jo bo človeštvo potrebovalo.
                 </p>
+                
+                <p className="mb-4">
+                  Na tej točki želimo biti jasni. Nov Svetovni Red prihaja in se bo zgodil. Temelji na človeku, ki se 
+                  postavi v držo Jaz sem — v držo Vodje, ki brezpogojno sprejema odgovornost za vse, kar naredi ali ne 
+                  naredi, pa bi moral. Ne pozna "šefov, genijev in titul", ampak pozna ljudi, ki delujejo iz zavedanja 
+                  in znajo postavljati ter združevati nasprotja v nekaj več, kar služi vsem nam. Zavedanje takšnih ljudi 
+                  preoblikuje kolektivno realnost in vedno podpira vsakega človeka ter vsako živo bitje.
+                </p>
+                
+                <p className="mb-4">
+                  V novem Svetovnem Redu vsak deluje iz sebe in nihče ni omejen. Zavedamo pa se, da niso vsi ljudje na 
+                  tem svetu sposobni sprejeti odgovornosti za svoja dejanja, ker so ujeti v krivdo in globoko verjamejo, 
+                  da sami nimajo dovolj moči ter da so odvisni od odločitev drugih. Takšni ljudje potrebujejo vodstvo, 
+                  ker nimajo v sebi izgrajene notranje postavitve, da bi prestopili v nekaj več. Zato smo hvaležni za 
+                  "šefe", ki skušajo vzdrževati red, saj bi ljudje brez notranjega vodstva, prepuščeni lastnim programskim 
+                  odločitvam, preprosto povedano – razpadli.
+                </p>
+                
                 <p>
-                  A vsaka resnica ima dve plati. Če ju ne sprejmemo, smo bleferji. Zato - zakaj pa ne - mogoče pa gremo
-                  tudi na volitve, mogoče podpremo k'erga zabavnega frajerja ali frajerko, ali pač nič od tega, in se
-                  bomo <strong>'meli samo fajn</strong>, ko bodo vsi zagriženo iskali, kako oblatiti nasprotnika, haha
-                  😄 Mi smo polni čudnih zgodb, tako da lahko začnete kar pri nas ;)
+                  Tisti, ki pa so pripravljeni na prestopni prehod, so dobrodošli v Nov Svetovni Red, ki bo v nekaj 
+                  desetletjih popolnoma preoblikoval svet v nekaj več.
                 </p>
               </>} icon={<Heart className="h-6 w-6" />} className="animate-fade-in" />
         </div>
