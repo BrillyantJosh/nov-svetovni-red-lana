@@ -1,0 +1,14 @@
+services:
+  web:
+    build: .
+    container_name: mejmosefajn-web
+    restart: unless-stopped
+    environment:
+      - VIRTUAL_HOST=www.mejmosefajn.org,mejmosefajn.org
+      - LETSENCRYPT_HOST=www.mejmosefajn.org,mejmosefajn.org
+    networks:
+      - webproxy
+
+networks:
+  webproxy:
+    external: true
