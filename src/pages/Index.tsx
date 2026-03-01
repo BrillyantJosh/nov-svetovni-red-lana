@@ -51,11 +51,16 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="animate-slide-up delay-300">
+          <div className="animate-slide-up delay-300 flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link to="/join-movement">
               <Button className="gradient-button text-lg px-8 py-4 animate-bounce-gentle">
                 Skoči na Vlak, čuču
                 <ChevronRight className="ml-2 h-5 w-5" />
+              </Button>
+            </Link>
+            <Link to="/lana8wonder-pomoc">
+              <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-4">
+                Imam Lana8Wonder, kaj sedaj?
               </Button>
             </Link>
           </div>
