@@ -4,8 +4,8 @@ services:
     container_name: nov-svetovni-red-web
     restart: unless-stopped
     environment:
-      - VIRTUAL_HOST=www.mejmosefajn.org
-      - LETSENCRYPT_HOST=www.mejmosefajn.org
+      - VIRTUAL_HOST=www.mejmosefajn.org,mejmosefajn.org
+      - LETSENCRYPT_HOST=www.mejmosefajn.org,mejmosefajn.org
     networks:
       - webproxy
 
