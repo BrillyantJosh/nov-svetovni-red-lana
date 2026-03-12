@@ -24,45 +24,50 @@ const Index = () => {
   return <div className="min-h-screen bg-background">
       {/* Navigation */}
       <nav className="fixed top-0 right-0 z-50 p-6">
-        <a href="https://app.mejmosefajn.org" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold text-primary hover:text-primary/80 transition-colors px-6 py-2 border-2 border-primary rounded-lg hover:bg-primary/10">
+        <a href="https://app.mejmosefajn.org" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold text-white hover:text-white/80 transition-colors px-6 py-2 border-2 border-white/70 rounded-lg hover:bg-white/10 backdrop-blur-sm">
           LOG IN
         </a>
       </nav>
 
-      {/* Hero Section */}
-      <section className="relative py-20 px-4 overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" style={{
-        backgroundImage: `url(${heroMovement})`
-      }} />
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10" />
+      {/* Hero Section - Full Screen */}
+      <section className="relative min-h-screen flex items-end overflow-hidden">
+        {/* Full-bleed hero image */}
+        <img
+          src={heroMovement}
+          alt="Mejmo se fajn"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        {/* Subtle gradient overlay only at bottom for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
 
-        <div className="relative max-w-4xl mx-auto text-center">
-          <div className="mb-8 animate-fade-in">
-            <h1 className="font-heading text-5xl md:text-7xl font-bold mb-6">
-              <span className="hero-text">'Mejmo se fajn</span>
+        {/* Content anchored at the bottom */}
+        <div className="relative w-full px-6 pb-16 pt-32 text-center">
+          <div className="max-w-4xl mx-auto animate-fade-in">
+            <h1 className="font-heading text-5xl md:text-7xl font-bold mb-4 text-white drop-shadow-lg">
+              'Mejmo se fajn
             </h1>
-            <h2 className="font-heading text-3xl md:text-4xl font-semibold text-secondary mb-4">
+            <h2 className="font-heading text-2xl md:text-4xl font-semibold text-white/90 mb-3 drop-shadow-md">
               Nov Svetovni Red Lana
             </h2>
-            <div className="flex items-center justify-center gap-2 text-lg text-muted-foreground">
+            <div className="flex items-center justify-center gap-2 text-lg text-white/70 mb-10">
               <Sparkles className="h-5 w-5 text-accent animate-pulse-glow" />
               <span>Totalno odbito gibanje</span>
               <Sparkles className="h-5 w-5 text-accent animate-pulse-glow" />
             </div>
-          </div>
 
-          <div className="animate-slide-up delay-300 flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Link to="/join-movement">
-              <Button className="gradient-button text-lg px-8 py-4 animate-bounce-gentle">
-                Skoči na Vlak, čuču
-                <ChevronRight className="ml-2 h-5 w-5" />
-              </Button>
-            </Link>
-            <Link to="/lana8wonder-pomoc">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-4">
-                Imam Lana8Wonder, kaj sedaj?
-              </Button>
-            </Link>
+            <div className="animate-slide-up delay-300 flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Link to="/join-movement">
+                <Button className="gradient-button text-lg px-8 py-4 animate-bounce-gentle">
+                  Skoči na Vlak, čuču
+                  <ChevronRight className="ml-2 h-5 w-5" />
+                </Button>
+              </Link>
+              <Link to="/lana8wonder-pomoc">
+                <Button variant="outline" className="border-white/70 text-white hover:bg-white/20 hover:border-white text-lg px-8 py-4 backdrop-blur-sm">
+                  Imam Lana8Wonder, kaj sedaj?
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </section>
