@@ -63,8 +63,9 @@ const Index = () => {
                 </Button>
               </Link>
               <Link to="/lana8wonder-pomoc">
-                <Button variant="outline" className="border-white/70 text-white hover:bg-white/20 hover:border-white text-lg px-8 py-4 backdrop-blur-sm">
+                <Button className="gradient-button text-lg px-8 py-4 animate-bounce-gentle">
                   Imam Lana8Wonder, kaj sedaj?
+                  <ChevronRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
             </div>
